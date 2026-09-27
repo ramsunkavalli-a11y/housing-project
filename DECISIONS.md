@@ -13,10 +13,13 @@ An agreed preference is not necessarily a completed implementation. A proposal i
 | Data complexity | The data layer may be complex if its presentation makes sense. | Owner's explicit instruction. |
 | Group conflict | Saying the choices are too different to find a shared fit is acceptable. | Owner's explicit instruction. |
 | Initial ambition | Build a useful first version and see whether it gains traction. | Owner's stated objective. |
+| Starting data priority | Favor broad coverage and free data; accept documented imperfections. | Owner: “comprehensive, but free, but may not be perfect.” |
 | Audience | Support home seekers and, eventually, AI agents. | Owner's stated objective. |
 | Repository | Use ramsunkavalli-a11y/housing-project for project plans. | Owner supplied the repository and requested setup. |
 
 ## Proposals to investigate
+
+Current working recommendation: [Census geography plus Overture/OSM names and streets](docs/free-starting-point.md). Census provides the nationwide geographic foundation; neighborhood-name coverage remains incomplete. Specific providers and the measurement unit are recommendations, not recorded owner selections.
 
 - Use neighborhood names for recognition and cross streets for specific exploration areas.
 - Compare Who's On First and city-defined boundaries with Zillow; inspect Overture/OpenStreetMap for names, boundaries, and street connections.

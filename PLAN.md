@@ -4,6 +4,8 @@ Updated: 2026-09-27
 
 **Now: Component 1 — neighborhood identity and coverage.** Work through the remaining components one at a time. Their order is a proposal, not a commitment to build them all immediately.
 
+Starting priority agreed: **broad coverage, free source data, acceptable imperfections**. The [working recommendation](docs/free-starting-point.md) is Census geography plus Overture/OSM names and streets. Next, explain which characteristics those areas can support before selecting the measurement unit or building ingestion.
+
 | Order | Component | Question to settle | Reviewable result before implementation |
 |---|---|---|---|
 | 1 | Neighborhood identity | What place are we recommending, and where should someone start exploring? | Compare names, boundaries, and cross streets in several sample places. |

@@ -6,6 +6,8 @@ Help an individual, couple, or group find places to consider for a new home thro
 
 ## Start here
 
+Latest direction: [a broad, free starting point](docs/free-starting-point.md), accepting clearly stated imperfections.
+
 1. [Simple plan](PLAN.md) — the order of work and what each component must explain.
 2. [Decisions](DECISIONS.md) — agreed preferences, proposals, and unresolved choices.
 3. [Neighborhood findings](docs/neighborhood-findings.md) — actual records, a boundary comparison, and the proposal to review next.
