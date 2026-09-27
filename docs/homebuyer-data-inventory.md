@@ -2,6 +2,8 @@
 
 Reviewed 2026-09-27. A deliberately broad inventory to narrow through buyer usefulness and source audits. **Listed does not mean available, collected, reliable, or approved for ranking.** Source IDs refer to the [source catalog](homebuyer-data-sources.md).
 
+**Owner's subsequent correction:** start with [buyer decisions](buyer-decisions.md). Readiness below describes source candidates, not collection priority. Every candidate must identify the buyer question and how it could change the shortlist before collection is selected. Detached-home share is background only, with no default headline or cutoff.
+
 Readiness labels describe proposed work, not universal quality:
 
 - **First audit:** plausible free sources worth testing in the first area profiles.
@@ -24,12 +26,12 @@ Readiness labels describe proposed work, not universal quality:
 
 ## 2. Housing stock and physical fit
 
-**Why:** narrow to places likely to contain suitable homes before evaluating amenities. Sources: S01, S03, S22, S27.
+**Why:** determine whether there is evidence of homes that meet the buyer's needs. Current matching options are more direct evidence than an area's housing composition; lack of evidence is not proof that no suitable home exists. Sources: S01, S03, S22, S27.
 
 | Candidate raw inputs | Useful derived output | Readiness / important limit |
 |---|---|---|
-| Units by structure type | Detached, attached, small multifamily, large multifamily, and manufactured-home mix | First audit; building type does not establish tenure or legal condominium status. |
-| Bedroom distribution; room distribution | Availability in the existing stock of desired size categories | First audit; separate marginal distributions do not reveal their joint intersection. |
+| Units by structure type | Optional background on building patterns when explicitly relevant | Already sampled; no default headline or exclusion rule. Does not establish current options, tenure or condominium status. |
+| Bedroom distribution; room distribution | Historical housing-size context | Bedroom counts sampled; room counts not audited. Not current availability. Separate distributions do not reveal their joint intersection. |
 | Construction-year bands | Older/newer stock mix | First audit; age is not condition, charm, energy efficiency, or code compliance. |
 | Occupancy/vacancy categories | Occupied stock and type of vacancy | First audit; vacancy is not current for-sale availability. |
 | Owner/renter counts; totals | Ownership context and valid denominators | First audit; never a desirability ranking of residents. |

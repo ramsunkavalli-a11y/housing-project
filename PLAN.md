@@ -2,14 +2,14 @@
 
 Updated: 2026-09-27
 
-**Now: Component 2 — data and evidence research, at the owner's request.** Geography implementation decisions remain open. Work through the components with reviewable explanations before building them.
+**Now: Component 2 — select evidence around practical buyer decisions.** The owner rejected the detached-home-percentage emphasis and agreed that every collected field needs a buyer question and a plausible effect on the shortlist. Start with the [buyer-decision outline](docs/buyer-decisions.md). Geography implementation decisions remain open.
 
-Starting priority agreed: **broad coverage, free source data, acceptable imperfections**. The [working recommendation](docs/free-starting-point.md) is Census geography plus Overture/OSM names and streets. Next, explain which characteristics those areas can support before selecting the measurement unit or building ingestion.
+Starting priority agreed: **broad coverage, free source data, acceptable imperfections**. The [working recommendation](docs/free-starting-point.md) is Census geography plus Overture/OSM names and streets. The next proposed review is “Can I find a suitable home here within my budget?” Define the useful answer and evidence gaps before selecting sources or building ingestion.
 
 | Order | Component | Question to settle | Reviewable result before implementation |
 |---|---|---|---|
 | 1 | Neighborhood identity | What place are we recommending, and where should someone start exploring? | Compare names, boundaries, and cross streets in several sample places. |
-| 2 | Data and evidence | Which characteristics can we measure well enough, at what cost and geographic scale? | A source list showing dates, coverage, reuse terms, uncertainty, and simple example explanations. |
+| 2 | Data and evidence | Which buyer decision could this evidence change, and can we support that conclusion? | Buyer question → decision → required evidence → understandable answer and remaining gaps. Include source quality and cost. |
 | 3 | Questions | Which answer would meaningfully narrow or change the suggestions? | A short branching interview illustrated with fictional users; no fixed question count assumed. |
 | 4 | Individual and group decisions | How do requirements, preferences, disagreements, and no-fit outcomes work? | Worked examples of a good fit, a compromise, a true conflict, and insufficient data. |
 | 5 | Affordability and commute | How do we estimate feasible costs and travel to actual destinations? | Transparent examples showing assumptions, ranges, and what needs address-level checking. |
@@ -41,7 +41,9 @@ Starting priority agreed: **broad coverage, free source data, acceptable imperfe
 - [x] Proceed with a worked example at the owner's request; use Granada Hills instead of Los Feliz, with Ames as the comparison.
 - [x] Audit nine ACS tables and selected EPA fields/geographies for these two examples, documenting dates, uncertainties, and reuse conditions.
 - [x] Produce [worked profiles](docs/worked-area-profiles.md) and [methods](docs/worked-area-methods.md), including a smaller-area sensitivity check. Both examples are built-up settings; rural generalization remains untested.
-- [ ] Review the examples' usefulness and which remaining components to audit next.
+- [x] Record the owner's correction: practical buyer decisions lead; detached-home share is not a default headline or filter.
+- [x] Reframe the examples and add a buyer-question-to-evidence outline.
+- [ ] Review a concrete answer to “Can I find a suitable home here within my budget?” before selecting the next collection batch.
 - [ ] Select a collection batch and measurement geography based on that evidence.
 
 The broad inventory is not a commitment to collect or score every candidate. The worked examples add small public extracts and a calculation script, not a national ingestion service or application.

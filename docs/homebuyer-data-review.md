@@ -2,7 +2,7 @@
 
 Research sweep: **2026-09-27**. Component 2. Recommendations for discussion; no national data pipeline, feature weights, or product implementation authorized by this document.
 
-**Recommendation: build a broad evidence inventory, preserve the underlying measurements, and expose only the few that matter to a particular household.** Collecting many useful variables does not require asking every user many questions or producing one giant neighborhood score.
+**Agreed direction following owner review: start with a practical buyer question, identify the decision it can change, then select evidence.** Keep a broad research inventory, but require a clear purpose before collecting or displaying each field. See the [buyer-decision outline](buyer-decisions.md). The owner rejected detached-home percentages as a useful headline; that available statistic should not drive the product.
 
 Read the [candidate collection inventory](homebuyer-data-inventory.md), [source catalog](homebuyer-data-sources.md), and [research notes](homebuyer-literature.md) for the supporting detail.
 
@@ -40,7 +40,7 @@ The inventory covers 16 components, with multiple candidate measurements per com
 
 ## A practical free starting collection
 
-**First broad batch:** Census ACS/TIGER housing and cost context; EPA Smart Location Database (SLD); Overture names, places, and transportation; USGS land cover and protected areas; NCES school locations; CMS hospital locations; NOAA climate context; FEMA/USFS hazard context. The [source catalog](homebuyer-data-sources.md) explains differences in geography, availability, and readiness. This batch is a proposal for a small audit before a national import.
+**Source candidates, subject to the buyer-decision test:** Census ACS/TIGER housing and cost context; EPA Smart Location Database (SLD); Overture names, places, and transportation; USGS land cover and protected areas; NCES school locations; CMS hospital locations; NOAA climate context; FEMA/USFS hazard context. The [source catalog](homebuyer-data-sources.md) explains differences in geography, availability, and readiness. This list is not a priority order or selected collection batch.
 
 SLD is a particularly useful shortcut: more than 90 measures already assembled, with the current version dated 2021. Use it as an older baseline, not a claim about current transit or businesses. Its geography requires careful alignment with newer Census data. [EPA documentation](https://www.epa.gov/smartgrowth/smart-location-mapping).
 
@@ -97,4 +97,4 @@ Do not use residents' race, ethnicity, religion, national origin, or household c
 
 ## Recommended next artifact
 
-Before collecting everything nationally, make **one worked area profile** with a generous subset from the inventory. Show each measure's raw source, transformation, buyer-facing wording, and gaps. Include an urban and a less-dense example when checking whether the measures generalize. Then select a collection batch and return to the question layer. This sweep expands the candidates; it does not commit us to displaying or scoring them all.
+The [Granada Hills/Ames exercise](worked-area-profiles.md) is complete as a small source audit. Owner feedback showed that available housing statistics were too prominent relative to practical buyer decisions. The next proposed review starts with **whether someone can find a suitable home within their budget**, defines what a useful answer would contain, and identifies the evidence needed. Keep source values and uncertainty available behind that explanation. Collection, scoring and nationwide coverage remain open.

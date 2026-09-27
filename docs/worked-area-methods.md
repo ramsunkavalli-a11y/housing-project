@@ -1,6 +1,6 @@
 # Worked area profiles: methods and evidence
 
-Collected 2026-09-27. Read the [plain-language profiles](worked-area-profiles.md) first. This is a small source audit, not proof of nationwide coverage. Estimates below come from actual public records.
+Collected 2026-09-27. Read the [buyer-question review](worked-area-profiles.md) first. This is a small source audit, not proof of nationwide coverage. Estimates below come from actual public records. Following owner feedback, these statistics are retained as background research; their inclusion does not imply a buyer-facing headline, priority or filtering rule.
 
 ## Geography and selection
 
@@ -47,7 +47,7 @@ The accompanying `derive.py` recomputes 17 percentage measures and four cost/val
 
 ## Full ACS comparison
 
-Tract columns support the main descriptions. Block groups are a locality/uncertainty check. Percentages use approximate 90% MOEs in percentage points; money uses published 90% MOEs in 2024 dollars.
+Tract columns provide larger-area background. Block groups are a locality/uncertainty check. Percentages use approximate 90% MOEs in percentage points; money uses published 90% MOEs in 2024 dollars.
 
 | Measure | Granada tract | Ames tract | Granada block group | Ames block group |
 |---|---:|---:|---:|---:|
