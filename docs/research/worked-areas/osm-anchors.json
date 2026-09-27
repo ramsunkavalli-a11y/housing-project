@@ -1,0 +1,24 @@
+{
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "retrieved": "2026-09-27",
+  "anchors": {
+    "granada": {
+      "name": "Chatsworth Street & Zelzah Avenue",
+      "node": 122720323,
+      "longitude": -118.5234289,
+      "latitude": 34.2649105,
+      "ways": [
+        401251463,
+        405129884
+      ]
+    },
+    "ames": {
+      "name": "Douglas Avenue & 9th Street",
+      "node": 2624861615,
+      "longitude": -93.6122056,
+      "latitude": 42.0301687
+    }
+  }
+}

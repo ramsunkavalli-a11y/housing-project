@@ -1,0 +1,1053 @@
+{
+  "retrieved": "2026-09-27",
+  "period": "2020-2024",
+  "currency_year": 2024,
+  "tables": {
+    "B25002": {
+      "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25002.dat",
+      "retrieved": "2026-09-27",
+      "table": "B25002",
+      "rows": {
+        "1400000US06037111202": {
+          "GEO_ID": "1400000US06037111202",
+          "B25002_E001": "1990",
+          "B25002_M001": "321",
+          "B25002_E002": "1970",
+          "B25002_M002": "321",
+          "B25002_E003": "20",
+          "B25002_M003": "32"
+        },
+        "1400000US19169000900": {
+          "GEO_ID": "1400000US19169000900",
+          "B25002_E001": "1983",
+          "B25002_M001": "218",
+          "B25002_E002": "1781",
+          "B25002_M002": "210",
+          "B25002_E003": "202",
+          "B25002_M003": "120"
+        },
+        "1500000US060371112022": {
+          "GEO_ID": "1500000US060371112022",
+          "B25002_E001": "495",
+          "B25002_M001": "171",
+          "B25002_E002": "495",
+          "B25002_M002": "171",
+          "B25002_E003": "0",
+          "B25002_M003": "14"
+        },
+        "1500000US191690009002": {
+          "GEO_ID": "1500000US191690009002",
+          "B25002_E001": "375",
+          "B25002_M001": "126",
+          "B25002_E002": "292",
+          "B25002_M002": "80",
+          "B25002_E003": "83",
+          "B25002_M003": "97"
+        }
+      },
+      "definitions": {
+        "B25002_001E": {
+          "label": "Estimate!!Total:",
+          "concept": "Occupancy Status"
+        },
+        "B25002_001M": {
+          "label": "Margin of Error!!Total:",
+          "concept": "Occupancy Status"
+        },
+        "B25002_002E": {
+          "label": "Estimate!!Total:!!Occupied",
+          "concept": "Occupancy Status"
+        },
+        "B25002_002M": {
+          "label": "Margin of Error!!Total:!!Occupied",
+          "concept": "Occupancy Status"
+        },
+        "B25002_003E": {
+          "label": "Estimate!!Total:!!Vacant",
+          "concept": "Occupancy Status"
+        },
+        "B25002_003M": {
+          "label": "Margin of Error!!Total:!!Vacant",
+          "concept": "Occupancy Status"
+        }
+      },
+      "metadata_url": "https://api.census.gov/data/2024/acs/acs5/groups/B25002.json"
+    },
+    "B25003": {
+      "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25003.dat",
+      "retrieved": "2026-09-27",
+      "table": "B25003",
+      "rows": {
+        "1400000US06037111202": {
+          "GEO_ID": "1400000US06037111202",
+          "B25003_E001": "1970",
+          "B25003_M001": "321",
+          "B25003_E002": "1202",
+          "B25003_M002": "193",
+          "B25003_E003": "768",
+          "B25003_M003": "267"
+        },
+        "1400000US19169000900": {
+          "GEO_ID": "1400000US19169000900",
+          "B25003_E001": "1781",
+          "B25003_M001": "210",
+          "B25003_E002": "990",
+          "B25003_M002": "157",
+          "B25003_E003": "791",
+          "B25003_M003": "160"
+        },
+        "1500000US060371112022": {
+          "GEO_ID": "1500000US060371112022",
+          "B25003_E001": "495",
+          "B25003_M001": "171",
+          "B25003_E002": "311",
+          "B25003_M002": "159",
+          "B25003_E003": "184",
+          "B25003_M003": "91"
+        },
+        "1500000US191690009002": {
+          "GEO_ID": "1500000US191690009002",
+          "B25003_E001": "292",
+          "B25003_M001": "80",
+          "B25003_E002": "140",
+          "B25003_M002": "56",
+          "B25003_E003": "152",
+          "B25003_M003": "62"
+        }
+      },
+      "definitions": {
+        "B25003_003E": {
+          "label": "Estimate!!Total:!!Renter occupied",
+          "concept": "Tenure"
+        },
+        "B25003_003M": {
+          "label": "Margin of Error!!Total:!!Renter occupied",
+          "concept": "Tenure"
+        },
+        "B25003_002E": {
+          "label": "Estimate!!Total:!!Owner occupied",
+          "concept": "Tenure"
+        },
+        "B25003_002M": {
+          "label": "Margin of Error!!Total:!!Owner occupied",
+          "concept": "Tenure"
+        },
+        "B25003_001E": {
+          "label": "Estimate!!Total:",
+          "concept": "Tenure"
+        },
+        "B25003_001M": {
+          "label": "Margin of Error!!Total:",
+          "concept": "Tenure"
+        }
+      },
+      "metadata_url": "https://api.census.gov/data/2024/acs/acs5/groups/B25003.json"
+    },
+    "B25024": {
+      "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25024.dat",
+      "retrieved": "2026-09-27",
+      "table": "B25024",
+      "rows": {
+        "1400000US06037111202": {
+          "GEO_ID": "1400000US06037111202",
+          "B25024_E001": "1990",
+          "B25024_M001": "321",
+          "B25024_E002": "1701",
+          "B25024_M002": "328",
+          "B25024_E003": "23",
+          "B25024_M003": "34",
+          "B25024_E004": "20",
+          "B25024_M004": "22",
+          "B25024_E005": "0",
+          "B25024_M005": "19",
+          "B25024_E006": "82",
+          "B25024_M006": "54",
+          "B25024_E007": "143",
+          "B25024_M007": "59",
+          "B25024_E008": "8",
+          "B25024_M008": "12",
+          "B25024_E009": "6",
+          "B25024_M009": "9",
+          "B25024_E010": "7",
+          "B25024_M010": "13",
+          "B25024_E011": "0",
+          "B25024_M011": "19"
+        },
+        "1400000US19169000900": {
+          "GEO_ID": "1400000US19169000900",
+          "B25024_E001": "1983",
+          "B25024_M001": "218",
+          "B25024_E002": "1189",
+          "B25024_M002": "183",
+          "B25024_E003": "21",
+          "B25024_M003": "23",
+          "B25024_E004": "278",
+          "B25024_M004": "127",
+          "B25024_E005": "150",
+          "B25024_M005": "59",
+          "B25024_E006": "113",
+          "B25024_M006": "66",
+          "B25024_E007": "150",
+          "B25024_M007": "81",
+          "B25024_E008": "41",
+          "B25024_M008": "28",
+          "B25024_E009": "17",
+          "B25024_M009": "19",
+          "B25024_E010": "24",
+          "B25024_M010": "35",
+          "B25024_E011": "0",
+          "B25024_M011": "10"
+        },
+        "1500000US060371112022": {
+          "GEO_ID": "1500000US060371112022",
+          "B25024_E001": "495",
+          "B25024_M001": "171",
+          "B25024_E002": "461",
+          "B25024_M002": "172",
+          "B25024_E003": "0",
+          "B25024_M003": "14",
+          "B25024_E004": "20",
+          "B25024_M004": "22",
+          "B25024_E005": "0",
+          "B25024_M005": "14",
+          "B25024_E006": "0",
+          "B25024_M006": "14",
+          "B25024_E007": "0",
+          "B25024_M007": "14",
+          "B25024_E008": "8",
+          "B25024_M008": "12",
+          "B25024_E009": "6",
+          "B25024_M009": "9",
+          "B25024_E010": "0",
+          "B25024_M010": "14",
+          "B25024_E011": "0",
+          "B25024_M011": "14"
+        },
+        "1500000US191690009002": {
+          "GEO_ID": "1500000US191690009002",
+          "B25024_E001": "375",
+          "B25024_M001": "126",
+          "B25024_E002": "200",
+          "B25024_M002": "107",
+          "B25024_E003": "0",
+          "B25024_M003": "10",
+          "B25024_E004": "81",
+          "B25024_M004": "64",
+          "B25024_E005": "17",
+          "B25024_M005": "20",
+          "B25024_E006": "24",
+          "B25024_M006": "27",
+          "B25024_E007": "53",
+          "B25024_M007": "34",
+          "B25024_E008": "0",
+          "B25024_M008": "10",
+          "B25024_E009": "0",
+          "B25024_M009": "10",
+          "B25024_E010": "0",
+          "B25024_M010": "10",
+          "B25024_E011": "0",
+          "B25024_M011": "10"
+        }
+      },
+      "definitions": {
+        "B25024_001E": {
+          "label": "Estimate!!Total:",
+          "concept": "Units in Structure"
+        },
+        "B25024_001M": {
+          "label": "Margin of Error!!Total:",
+          "concept": "Units in Structure"
+        },
+        "B25024_008E": {
+          "label": "Estimate!!Total:!!20 to 49",
+          "concept": "Units in Structure"
+        },
+        "B25024_007E": {
+          "label": "Estimate!!Total:!!10 to 19",
+          "concept": "Units in Structure"
+        },
+        "B25024_007M": {
+          "label": "Margin of Error!!Total:!!10 to 19",
+          "concept": "Units in Structure"
+        },
+        "B25024_006E": {
+          "label": "Estimate!!Total:!!5 to 9",
+          "concept": "Units in Structure"
+        },
+        "B25024_006M": {
+          "label": "Margin of Error!!Total:!!5 to 9",
+          "concept": "Units in Structure"
+        },
+        "B25024_009M": {
+          "label": "Margin of Error!!Total:!!50 or more",
+          "concept": "Units in Structure"
+        },
+        "B25024_009E": {
+          "label": "Estimate!!Total:!!50 or more",
+          "concept": "Units in Structure"
+        },
+        "B25024_008M": {
+          "label": "Margin of Error!!Total:!!20 to 49",
+          "concept": "Units in Structure"
+        },
+        "B25024_003E": {
+          "label": "Estimate!!Total:!!1, attached",
+          "concept": "Units in Structure"
+        },
+        "B25024_003M": {
+          "label": "Margin of Error!!Total:!!1, attached",
+          "concept": "Units in Structure"
+        },
+        "B25024_002E": {
+          "label": "Estimate!!Total:!!1, detached",
+          "concept": "Units in Structure"
+        },
+        "B25024_002M": {
+          "label": "Margin of Error!!Total:!!1, detached",
+          "concept": "Units in Structure"
+        },
+        "B25024_005E": {
+          "label": "Estimate!!Total:!!3 or 4",
+          "concept": "Units in Structure"
+        },
+        "B25024_005M": {
+          "label": "Margin of Error!!Total:!!3 or 4",
+          "concept": "Units in Structure"
+        },
+        "B25024_004E": {
+          "label": "Estimate!!Total:!!2",
+          "concept": "Units in Structure"
+        },
+        "B25024_004M": {
+          "label": "Margin of Error!!Total:!!2",
+          "concept": "Units in Structure"
+        },
+        "B25024_011E": {
+          "label": "Estimate!!Total:!!Boat, RV, van, etc.",
+          "concept": "Units in Structure"
+        },
+        "B25024_011M": {
+          "label": "Margin of Error!!Total:!!Boat, RV, van, etc.",
+          "concept": "Units in Structure"
+        },
+        "B25024_010M": {
+          "label": "Margin of Error!!Total:!!Mobile home",
+          "concept": "Units in Structure"
+        },
+        "B25024_010E": {
+          "label": "Estimate!!Total:!!Mobile home",
+          "concept": "Units in Structure"
+        }
+      },
+      "metadata_url": "https://api.census.gov/data/2024/acs/acs5/groups/B25024.json"
+    },
+    "B25041": {
+      "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25041.dat",
+      "retrieved": "2026-09-27",
+      "table": "B25041",
+      "rows": {
+        "1400000US06037111202": {
+          "GEO_ID": "1400000US06037111202",
+          "B25041_E001": "1990",
+          "B25041_M001": "321",
+          "B25041_E002": "6",
+          "B25041_M002": "9",
+          "B25041_E003": "161",
+          "B25041_M003": "77",
+          "B25041_E004": "470",
+          "B25041_M004": "130",
+          "B25041_E005": "969",
+          "B25041_M005": "318",
+          "B25041_E006": "302",
+          "B25041_M006": "149",
+          "B25041_E007": "82",
+          "B25041_M007": "68"
+        },
+        "1400000US19169000900": {
+          "GEO_ID": "1400000US19169000900",
+          "B25041_E001": "1983",
+          "B25041_M001": "218",
+          "B25041_E002": "38",
+          "B25041_M002": "38",
+          "B25041_E003": "228",
+          "B25041_M003": "93",
+          "B25041_E004": "741",
+          "B25041_M004": "200",
+          "B25041_E005": "633",
+          "B25041_M005": "121",
+          "B25041_E006": "309",
+          "B25041_M006": "98",
+          "B25041_E007": "34",
+          "B25041_M007": "36"
+        },
+        "1500000US060371112022": {
+          "GEO_ID": "1500000US060371112022",
+          "B25041_E001": "495",
+          "B25041_M001": "171",
+          "B25041_E002": "6",
+          "B25041_M002": "9",
+          "B25041_E003": "58",
+          "B25041_M003": "53",
+          "B25041_E004": "183",
+          "B25041_M004": "98",
+          "B25041_E005": "89",
+          "B25041_M005": "48",
+          "B25041_E006": "140",
+          "B25041_M006": "127",
+          "B25041_E007": "19",
+          "B25041_M007": "24"
+        },
+        "1500000US191690009002": {
+          "GEO_ID": "1500000US191690009002",
+          "B25041_E001": "375",
+          "B25041_M001": "126",
+          "B25041_E002": "0",
+          "B25041_M002": "10",
+          "B25041_E003": "37",
+          "B25041_M003": "45",
+          "B25041_E004": "169",
+          "B25041_M004": "101",
+          "B25041_E005": "130",
+          "B25041_M005": "64",
+          "B25041_E006": "39",
+          "B25041_M006": "43",
+          "B25041_E007": "0",
+          "B25041_M007": "10"
+        }
+      },
+      "definitions": {
+        "B25041_007E": {
+          "label": "Estimate!!Total:!!5 or more bedrooms",
+          "concept": "Bedrooms"
+        },
+        "B25041_007M": {
+          "label": "Margin of Error!!Total:!!5 or more bedrooms",
+          "concept": "Bedrooms"
+        },
+        "B25041_006E": {
+          "label": "Estimate!!Total:!!4 bedrooms",
+          "concept": "Bedrooms"
+        },
+        "B25041_006M": {
+          "label": "Margin of Error!!Total:!!4 bedrooms",
+          "concept": "Bedrooms"
+        },
+        "B25041_005E": {
+          "label": "Estimate!!Total:!!3 bedrooms",
+          "concept": "Bedrooms"
+        },
+        "B25041_005M": {
+          "label": "Margin of Error!!Total:!!3 bedrooms",
+          "concept": "Bedrooms"
+        },
+        "B25041_004E": {
+          "label": "Estimate!!Total:!!2 bedrooms",
+          "concept": "Bedrooms"
+        },
+        "B25041_004M": {
+          "label": "Margin of Error!!Total:!!2 bedrooms",
+          "concept": "Bedrooms"
+        },
+        "B25041_003E": {
+          "label": "Estimate!!Total:!!1 bedroom",
+          "concept": "Bedrooms"
+        },
+        "B25041_003M": {
+          "label": "Margin of Error!!Total:!!1 bedroom",
+          "concept": "Bedrooms"
+        },
+        "B25041_002E": {
+          "label": "Estimate!!Total:!!No bedroom",
+          "concept": "Bedrooms"
+        },
+        "B25041_002M": {
+          "label": "Margin of Error!!Total:!!No bedroom",
+          "concept": "Bedrooms"
+        },
+        "B25041_001E": {
+          "label": "Estimate!!Total:",
+          "concept": "Bedrooms"
+        },
+        "B25041_001M": {
+          "label": "Margin of Error!!Total:",
+          "concept": "Bedrooms"
+        }
+      },
+      "metadata_url": "https://api.census.gov/data/2024/acs/acs5/groups/B25041.json"
+    },
+    "B25034": {
+      "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25034.dat",
+      "retrieved": "2026-09-27",
+      "table": "B25034",
+      "rows": {
+        "1400000US06037111202": {
+          "GEO_ID": "1400000US06037111202",
+          "B25034_E001": "1990",
+          "B25034_M001": "321",
+          "B25034_E002": "0",
+          "B25034_M002": "19",
+          "B25034_E003": "11",
+          "B25034_M003": "17",
+          "B25034_E004": "61",
+          "B25034_M004": "41",
+          "B25034_E005": "14",
+          "B25034_M005": "15",
+          "B25034_E006": "108",
+          "B25034_M006": "81",
+          "B25034_E007": "160",
+          "B25034_M007": "71",
+          "B25034_E008": "198",
+          "B25034_M008": "82",
+          "B25034_E009": "966",
+          "B25034_M009": "185",
+          "B25034_E010": "324",
+          "B25034_M010": "270",
+          "B25034_E011": "148",
+          "B25034_M011": "67"
+        },
+        "1400000US19169000900": {
+          "GEO_ID": "1400000US19169000900",
+          "B25034_E001": "1983",
+          "B25034_M001": "218",
+          "B25034_E002": "0",
+          "B25034_M002": "10",
+          "B25034_E003": "12",
+          "B25034_M003": "19",
+          "B25034_E004": "98",
+          "B25034_M004": "75",
+          "B25034_E005": "81",
+          "B25034_M005": "58",
+          "B25034_E006": "8",
+          "B25034_M006": "13",
+          "B25034_E007": "238",
+          "B25034_M007": "87",
+          "B25034_E008": "92",
+          "B25034_M008": "61",
+          "B25034_E009": "258",
+          "B25034_M009": "133",
+          "B25034_E010": "114",
+          "B25034_M010": "68",
+          "B25034_E011": "1082",
+          "B25034_M011": "198"
+        },
+        "1500000US060371112022": {
+          "GEO_ID": "1500000US060371112022",
+          "B25034_E001": "495",
+          "B25034_M001": "171",
+          "B25034_E002": "0",
+          "B25034_M002": "14",
+          "B25034_E003": "0",
+          "B25034_M003": "14",
+          "B25034_E004": "0",
+          "B25034_M004": "14",
+          "B25034_E005": "14",
+          "B25034_M005": "15",
+          "B25034_E006": "12",
+          "B25034_M006": "20",
+          "B25034_E007": "43",
+          "B25034_M007": "31",
+          "B25034_E008": "47",
+          "B25034_M008": "46",
+          "B25034_E009": "282",
+          "B25034_M009": "168",
+          "B25034_E010": "73",
+          "B25034_M010": "64",
+          "B25034_E011": "24",
+          "B25034_M011": "23"
+        },
+        "1500000US191690009002": {
+          "GEO_ID": "1500000US191690009002",
+          "B25034_E001": "375",
+          "B25034_M001": "126",
+          "B25034_E002": "0",
+          "B25034_M002": "10",
+          "B25034_E003": "12",
+          "B25034_M003": "19",
+          "B25034_E004": "0",
+          "B25034_M004": "10",
+          "B25034_E005": "32",
+          "B25034_M005": "40",
+          "B25034_E006": "8",
+          "B25034_M006": "13",
+          "B25034_E007": "64",
+          "B25034_M007": "45",
+          "B25034_E008": "0",
+          "B25034_M008": "10",
+          "B25034_E009": "83",
+          "B25034_M009": "56",
+          "B25034_E010": "26",
+          "B25034_M010": "42",
+          "B25034_E011": "150",
+          "B25034_M011": "99"
+        }
+      },
+      "definitions": {
+        "B25034_010M": {
+          "label": "Margin of Error!!Total:!!Built 1940 to 1949",
+          "concept": "Year Structure Built"
+        },
+        "B25034_010E": {
+          "label": "Estimate!!Total:!!Built 1940 to 1949",
+          "concept": "Year Structure Built"
+        },
+        "B25034_011M": {
+          "label": "Margin of Error!!Total:!!Built 1939 or earlier",
+          "concept": "Year Structure Built"
+        },
+        "B25034_011E": {
+          "label": "Estimate!!Total:!!Built 1939 or earlier",
+          "concept": "Year Structure Built"
+        },
+        "B25034_009E": {
+          "label": "Estimate!!Total:!!Built 1950 to 1959",
+          "concept": "Year Structure Built"
+        },
+        "B25034_008M": {
+          "label": "Margin of Error!!Total:!!Built 1960 to 1969",
+          "concept": "Year Structure Built"
+        },
+        "B25034_008E": {
+          "label": "Estimate!!Total:!!Built 1960 to 1969",
+          "concept": "Year Structure Built"
+        },
+        "B25034_009M": {
+          "label": "Margin of Error!!Total:!!Built 1950 to 1959",
+          "concept": "Year Structure Built"
+        },
+        "B25034_004M": {
+          "label": "Margin of Error!!Total:!!Built 2000 to 2009",
+          "concept": "Year Structure Built"
+        },
+        "B25034_004E": {
+          "label": "Estimate!!Total:!!Built 2000 to 2009",
+          "concept": "Year Structure Built"
+        },
+        "B25034_005M": {
+          "label": "Margin of Error!!Total:!!Built 1990 to 1999",
+          "concept": "Year Structure Built"
+        },
+        "B25034_005E": {
+          "label": "Estimate!!Total:!!Built 1990 to 1999",
+          "concept": "Year Structure Built"
+        },
+        "B25034_006M": {
+          "label": "Margin of Error!!Total:!!Built 1980 to 1989",
+          "concept": "Year Structure Built"
+        },
+        "B25034_006E": {
+          "label": "Estimate!!Total:!!Built 1980 to 1989",
+          "concept": "Year Structure Built"
+        },
+        "B25034_007M": {
+          "label": "Margin of Error!!Total:!!Built 1970 to 1979",
+          "concept": "Year Structure Built"
+        },
+        "B25034_007E": {
+          "label": "Estimate!!Total:!!Built 1970 to 1979",
+          "concept": "Year Structure Built"
+        },
+        "B25034_001M": {
+          "label": "Margin of Error!!Total:",
+          "concept": "Year Structure Built"
+        },
+        "B25034_001E": {
+          "label": "Estimate!!Total:",
+          "concept": "Year Structure Built"
+        },
+        "B25034_002M": {
+          "label": "Margin of Error!!Total:!!Built 2020 or later",
+          "concept": "Year Structure Built"
+        },
+        "B25034_002E": {
+          "label": "Estimate!!Total:!!Built 2020 or later",
+          "concept": "Year Structure Built"
+        },
+        "B25034_003M": {
+          "label": "Margin of Error!!Total:!!Built 2010 to 2019",
+          "concept": "Year Structure Built"
+        },
+        "B25034_003E": {
+          "label": "Estimate!!Total:!!Built 2010 to 2019",
+          "concept": "Year Structure Built"
+        }
+      },
+      "metadata_url": "https://api.census.gov/data/2024/acs/acs5/groups/B25034.json"
+    },
+    "B25077": {
+      "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25077.dat",
+      "retrieved": "2026-09-27",
+      "table": "B25077",
+      "rows": {
+        "1400000US06037111202": {
+          "GEO_ID": "1400000US06037111202",
+          "B25077_E001": "816500",
+          "B25077_M001": "48702"
+        },
+        "1400000US19169000900": {
+          "GEO_ID": "1400000US19169000900",
+          "B25077_E001": "221300",
+          "B25077_M001": "10161"
+        },
+        "1500000US060371112022": {
+          "GEO_ID": "1500000US060371112022",
+          "B25077_E001": "790400",
+          "B25077_M001": "136789"
+        },
+        "1500000US191690009002": {
+          "GEO_ID": "1500000US191690009002",
+          "B25077_E001": "225500",
+          "B25077_M001": "8658"
+        }
+      },
+      "definitions": {
+        "B25077_001M": {
+          "label": "Margin of Error!!Median value (dollars)",
+          "concept": "Median Value (Dollars)"
+        },
+        "B25077_001E": {
+          "label": "Estimate!!Median value (dollars)",
+          "concept": "Median Value (Dollars)"
+        }
+      },
+      "metadata_url": "https://api.census.gov/data/2024/acs/acs5/groups/B25077.json"
+    },
+    "B25064": {
+      "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25064.dat",
+      "retrieved": "2026-09-27",
+      "table": "B25064",
+      "rows": {
+        "1400000US06037111202": {
+          "GEO_ID": "1400000US06037111202",
+          "B25064_E001": "2971",
+          "B25064_M001": "365"
+        },
+        "1400000US19169000900": {
+          "GEO_ID": "1400000US19169000900",
+          "B25064_E001": "914",
+          "B25064_M001": "54"
+        },
+        "1500000US060371112022": {
+          "GEO_ID": "1500000US060371112022",
+          "B25064_E001": "2658",
+          "B25064_M001": "402"
+        },
+        "1500000US191690009002": {
+          "GEO_ID": "1500000US191690009002",
+          "B25064_E001": "859",
+          "B25064_M001": "70"
+        }
+      },
+      "definitions": {
+        "B25064_001E": {
+          "label": "Estimate!!Median gross rent",
+          "concept": "Median Gross Rent (Dollars)"
+        },
+        "B25064_001M": {
+          "label": "Margin of Error!!Median gross rent",
+          "concept": "Median Gross Rent (Dollars)"
+        }
+      },
+      "metadata_url": "https://api.census.gov/data/2024/acs/acs5/groups/B25064.json"
+    },
+    "B25088": {
+      "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25088.dat",
+      "retrieved": "2026-09-27",
+      "table": "B25088",
+      "rows": {
+        "1400000US06037111202": {
+          "GEO_ID": "1400000US06037111202",
+          "B25088_E001": "2876",
+          "B25088_M001": "362",
+          "B25088_E002": "3387",
+          "B25088_M002": "445",
+          "B25088_E003": "1053",
+          "B25088_M003": "328"
+        },
+        "1400000US19169000900": {
+          "GEO_ID": "1400000US19169000900",
+          "B25088_E001": "869",
+          "B25088_M001": "102",
+          "B25088_E002": "1444",
+          "B25088_M002": "208",
+          "B25088_E003": "625",
+          "B25088_M003": "129"
+        },
+        "1500000US060371112022": {
+          "GEO_ID": "1500000US060371112022",
+          "B25088_E001": "2557",
+          "B25088_M001": "1856",
+          "B25088_E002": "3424",
+          "B25088_M002": "659",
+          "B25088_E003": "1501",
+          "B25088_M003": "-333333333"
+        },
+        "1500000US191690009002": {
+          "GEO_ID": "1500000US191690009002",
+          "B25088_E001": "850",
+          "B25088_M001": "237",
+          "B25088_E002": "1286",
+          "B25088_M002": "730",
+          "B25088_E003": "579",
+          "B25088_M003": "274"
+        }
+      },
+      "definitions": {
+        "B25088_001E": {
+          "label": "Estimate!!Median selected monthly owner costs (dollars) --!!Total:",
+          "concept": "Median Selected Monthly Owner Costs (Dollars) by Mortgage Status"
+        },
+        "B25088_001M": {
+          "label": "Margin of Error!!Median selected monthly owner costs (dollars) --!!Total:",
+          "concept": "Median Selected Monthly Owner Costs (Dollars) by Mortgage Status"
+        },
+        "B25088_003M": {
+          "label": "Margin of Error!!Median selected monthly owner costs (dollars) --!!Housing units without a mortgage (dollars)",
+          "concept": "Median Selected Monthly Owner Costs (Dollars) by Mortgage Status"
+        },
+        "B25088_003E": {
+          "label": "Estimate!!Median selected monthly owner costs (dollars) --!!Housing units without a mortgage (dollars)",
+          "concept": "Median Selected Monthly Owner Costs (Dollars) by Mortgage Status"
+        },
+        "B25088_002M": {
+          "label": "Margin of Error!!Median selected monthly owner costs (dollars) --!!Housing units with a mortgage (dollars)",
+          "concept": "Median Selected Monthly Owner Costs (Dollars) by Mortgage Status"
+        },
+        "B25088_002E": {
+          "label": "Estimate!!Median selected monthly owner costs (dollars) --!!Housing units with a mortgage (dollars)",
+          "concept": "Median Selected Monthly Owner Costs (Dollars) by Mortgage Status"
+        }
+      },
+      "metadata_url": "https://api.census.gov/data/2024/acs/acs5/groups/B25088.json"
+    },
+    "B28002": {
+      "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b28002.dat",
+      "retrieved": "2026-09-27",
+      "table": "B28002",
+      "rows": {
+        "1400000US06037111202": {
+          "GEO_ID": "1400000US06037111202",
+          "B28002_E001": "1970",
+          "B28002_M001": "321",
+          "B28002_E002": "1900",
+          "B28002_M002": "337",
+          "B28002_E003": "0",
+          "B28002_M003": "19",
+          "B28002_E004": "1900",
+          "B28002_M004": "337",
+          "B28002_E005": "1863",
+          "B28002_M005": "335",
+          "B28002_E006": "178",
+          "B28002_M006": "111",
+          "B28002_E007": "1683",
+          "B28002_M007": "357",
+          "B28002_E008": "37",
+          "B28002_M008": "34",
+          "B28002_E009": "123",
+          "B28002_M009": "78",
+          "B28002_E010": "0",
+          "B28002_M010": "19",
+          "B28002_E011": "0",
+          "B28002_M011": "19",
+          "B28002_E012": "15",
+          "B28002_M012": "16",
+          "B28002_E013": "55",
+          "B28002_M013": "70"
+        },
+        "1400000US19169000900": {
+          "GEO_ID": "1400000US19169000900",
+          "B28002_E001": "1781",
+          "B28002_M001": "210",
+          "B28002_E002": "1604",
+          "B28002_M002": "212",
+          "B28002_E003": "0",
+          "B28002_M003": "10",
+          "B28002_E004": "1604",
+          "B28002_M004": "212",
+          "B28002_E005": "1517",
+          "B28002_M005": "210",
+          "B28002_E006": "115",
+          "B28002_M006": "74",
+          "B28002_E007": "1443",
+          "B28002_M007": "224",
+          "B28002_E008": "79",
+          "B28002_M008": "55",
+          "B28002_E009": "46",
+          "B28002_M009": "48",
+          "B28002_E010": "0",
+          "B28002_M010": "10",
+          "B28002_E011": "0",
+          "B28002_M011": "10",
+          "B28002_E012": "100",
+          "B28002_M012": "53",
+          "B28002_E013": "77",
+          "B28002_M013": "53"
+        },
+        "1500000US060371112022": {
+          "GEO_ID": "1500000US060371112022",
+          "B28002_E001": "495",
+          "B28002_M001": "171",
+          "B28002_E002": "472",
+          "B28002_M002": "173",
+          "B28002_E003": "0",
+          "B28002_M003": "14",
+          "B28002_E004": "472",
+          "B28002_M004": "173",
+          "B28002_E005": "472",
+          "B28002_M005": "173",
+          "B28002_E006": "82",
+          "B28002_M006": "83",
+          "B28002_E007": "377",
+          "B28002_M007": "160",
+          "B28002_E008": "0",
+          "B28002_M008": "14",
+          "B28002_E009": "24",
+          "B28002_M009": "24",
+          "B28002_E010": "0",
+          "B28002_M010": "14",
+          "B28002_E011": "0",
+          "B28002_M011": "14",
+          "B28002_E012": "15",
+          "B28002_M012": "16",
+          "B28002_E013": "8",
+          "B28002_M013": "12"
+        },
+        "1500000US191690009002": {
+          "GEO_ID": "1500000US191690009002",
+          "B28002_E001": "292",
+          "B28002_M001": "80",
+          "B28002_E002": "268",
+          "B28002_M002": "80",
+          "B28002_E003": "0",
+          "B28002_M003": "10",
+          "B28002_E004": "268",
+          "B28002_M004": "80",
+          "B28002_E005": "237",
+          "B28002_M005": "77",
+          "B28002_E006": "13",
+          "B28002_M006": "21",
+          "B28002_E007": "224",
+          "B28002_M007": "78",
+          "B28002_E008": "31",
+          "B28002_M008": "29",
+          "B28002_E009": "31",
+          "B28002_M009": "36",
+          "B28002_E010": "0",
+          "B28002_M010": "10",
+          "B28002_E011": "0",
+          "B28002_M011": "10",
+          "B28002_E012": "19",
+          "B28002_M012": "19",
+          "B28002_E013": "5",
+          "B28002_M013": "8"
+        }
+      },
+      "definitions": {
+        "B28002_002E": {
+          "label": "Estimate!!Total:!!With an Internet subscription",
+          "concept": "Presence and Types of Internet Subscriptions in Household"
+        },
+        "B28002_002M": {
+          "label": "Margin of Error!!Total:!!With an Internet subscription",
+          "concept": "Presence and Types of Internet Subscriptions in Household"
+        },
+        "B28002_003M": {
+          "label": "Margin of Error!!Total:!!With an Internet subscription!!Dial-up with no other type of Internet subscription",
+          "concept": "Presence and Types of Internet Subscriptions in Household"
+        },
+        "B28002_003E": {
+          "label": "Estimate!!Total:!!With an Internet subscription!!Dial-up with no other type of Internet subscription",
+          "concept": "Presence and Types of Internet Subscriptions in Household"
+        },
+        "B28002_001E": {
+          "label": "Estimate!!Total:",
+          "concept": "Presence and Types of Internet Subscriptions in Household"
+        },
+        "B28002_001M": {
+          "label": "Margin of Error!!Total:",
+          "concept": "Presence and Types of Internet Subscriptions in Household"
+        },
+        "B28002_006M": {
+          "label": "Margin of Error!!Total:!!With an Internet subscription!!Cellular data plan!!Cellular data plan with no other type of Internet subscription",
+          "concept": "Presence and Types of Internet Subscriptions in Household"
+        },
+        "B28002_006E": {
+          "label": "Estimate!!Total:!!With an Internet subscription!!Cellular data plan!!Cellular data plan with no other type of Internet subscription",
+          "concept": "Presence and Types of Internet Subscriptions in Household"
+        },
+        "B28002_007M": {
+          "label": "Margin of Error!!Total:!!With an Internet subscription!!Broadband such as cable, fiber optic or DSL",
+          "concept": "Presence and Types of Internet Subscriptions in Household"
+        },
+        "B28002_007E": {
+          "label": "Estimate!!Total:!!With an Internet subscription!!Broadband such as cable, fiber optic or DSL",
+          "concept": "Presence and Types of Internet Subscriptions in Household"
+        },
+        "B28002_004M": {
+          "label": "Margin of Error!!Total:!!With an Internet subscription!!Broadband of any type",
+          "concept": "Presence and Types of Internet Subscriptions in Household"
+        },
+        "B28002_004E": {
+          "label": "Estimate!!Total:!!With an Internet subscription!!Broadband of any type",
+          "concept": "Presence and Types of Internet Subscriptions in Household"
+        },
+        "B28002_005M": {
+          "label": "Margin of Error!!Total:!!With an Internet subscription!!Cellular data plan",
+          "concept": "Presence and Types of Internet Subscriptions in Household"
+        },
+        "B28002_005E": {
+          "label": "Estimate!!Total:!!With an Internet subscription!!Cellular data plan",
+          "concept": "Presence and Types of Internet Subscriptions in Household"
+        },
+        "B28002_008M": {
+          "label": "Margin of Error!!Total:!!With an Internet subscription!!Broadband such as cable, fiber optic or DSL!!Broadband such as cable, fiber optic or DSL with no other type of Internet subscription",
+          "concept": "Presence and Types of Internet Subscriptions in Household"
+        },
+        "B28002_008E": {
+          "label": "Estimate!!Total:!!With an Internet subscription!!Broadband such as cable, fiber optic or DSL!!Broadband such as cable, fiber optic or DSL with no other type of Internet subscription",
+          "concept": "Presence and Types of Internet Subscriptions in Household"
+        },
+        "B28002_009M": {
+          "label": "Margin of Error!!Total:!!With an Internet subscription!!Satellite Internet service",
+          "concept": "Presence and Types of Internet Subscriptions in Household"
+        },
+        "B28002_009E": {
+          "label": "Estimate!!Total:!!With an Internet subscription!!Satellite Internet service",
+          "concept": "Presence and Types of Internet Subscriptions in Household"
+        },
+        "B28002_010E": {
+          "label": "Estimate!!Total:!!With an Internet subscription!!Satellite Internet service!!Satellite Internet service with no other type of Internet subscription",
+          "concept": "Presence and Types of Internet Subscriptions in Household"
+        },
+        "B28002_010M": {
+          "label": "Margin of Error!!Total:!!With an Internet subscription!!Satellite Internet service!!Satellite Internet service with no other type of Internet subscription",
+          "concept": "Presence and Types of Internet Subscriptions in Household"
+        },
+        "B28002_011E": {
+          "label": "Estimate!!Total:!!With an Internet subscription!!Other service with no other type of Internet subscription",
+          "concept": "Presence and Types of Internet Subscriptions in Household"
+        },
+        "B28002_011M": {
+          "label": "Margin of Error!!Total:!!With an Internet subscription!!Other service with no other type of Internet subscription",
+          "concept": "Presence and Types of Internet Subscriptions in Household"
+        },
+        "B28002_012E": {
+          "label": "Estimate!!Total:!!Internet access without a subscription",
+          "concept": "Presence and Types of Internet Subscriptions in Household"
+        },
+        "B28002_012M": {
+          "label": "Margin of Error!!Total:!!Internet access without a subscription",
+          "concept": "Presence and Types of Internet Subscriptions in Household"
+        },
+        "B28002_013E": {
+          "label": "Estimate!!Total:!!No Internet access",
+          "concept": "Presence and Types of Internet Subscriptions in Household"
+        },
+        "B28002_013M": {
+          "label": "Margin of Error!!Total:!!No Internet access",
+          "concept": "Presence and Types of Internet Subscriptions in Household"
+        }
+      },
+      "metadata_url": "https://api.census.gov/data/2024/acs/acs5/groups/B28002.json"
+    }
+  }
+}

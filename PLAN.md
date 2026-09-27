@@ -38,12 +38,13 @@ Starting priority agreed: **broad coverage, free source data, acceptable imperfe
 - [x] Assemble a broad buyer-relevant [candidate inventory](docs/homebuyer-data-inventory.md) before narrowing it.
 - [x] Identify free-source candidates, access methods, geographic limitations, and unresolved terms: [source catalog](docs/homebuyer-data-sources.md).
 - [x] Explain how raw observations become useful comparisons: [review](docs/homebuyer-data-review.md).
-- [ ] Discuss which components deserve a worked example first.
-- [ ] Audit actual fields, releases, coverage, and permissions for the selected small sample.
-- [ ] Produce a worked area profile, then compare urban and less-dense examples.
+- [x] Proceed with a worked example at the owner's request; use Granada Hills instead of Los Feliz, with Ames as the comparison.
+- [x] Audit nine ACS tables and selected EPA fields/geographies for these two examples, documenting dates, uncertainties, and reuse conditions.
+- [x] Produce [worked profiles](docs/worked-area-profiles.md) and [methods](docs/worked-area-methods.md), including a smaller-area sensitivity check. Both examples are built-up settings; rural generalization remains untested.
+- [ ] Review the examples' usefulness and which remaining components to audit next.
 - [ ] Select a collection batch and measurement geography based on that evidence.
 
-The broad inventory is not a commitment to collect or score every candidate. No new data pipeline or application was built during this literature sweep.
+The broad inventory is not a commitment to collect or score every candidate. The worked examples add small public extracts and a calculation script, not a national ingestion service or application.
 
 ## For every component
 

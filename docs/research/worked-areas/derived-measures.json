@@ -1,0 +1,1470 @@
+{
+  "method_version": "worked-example-1",
+  "period": "2020-2024",
+  "areas": {
+    "1400000US06037111202": {
+      "detached": {
+        "label": "Detached homes",
+        "table": "B25024",
+        "estimate": 85.47738693467338,
+        "moe90_pp": 9.031017868168888,
+        "numerator": 1701.0,
+        "denominator": 1990.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25024_E002"
+        ],
+        "denominator_column": "B25024_E001",
+        "interval90_clipped": [
+          76.44636906650449,
+          94.50840480284226
+        ]
+      },
+      "attached": {
+        "label": "Attached single-unit homes",
+        "table": "B25024",
+        "estimate": 1.1557788944723617,
+        "moe90_pp": 1.698340458195744,
+        "numerator": 23.0,
+        "denominator": 1990.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25024_E003"
+        ],
+        "denominator_column": "B25024_E001",
+        "interval90_clipped": [
+          0,
+          2.8541193526681057
+        ]
+      },
+      "two_to_four": {
+        "label": "Units in 2–4-unit buildings",
+        "table": "B25024",
+        "estimate": 1.0050251256281406,
+        "moe90_pp": 1.451723989042074,
+        "numerator": 20.0,
+        "denominator": 1990.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25024_E004",
+          "B25024_E005"
+        ],
+        "denominator_column": "B25024_E001",
+        "interval90_clipped": [
+          0,
+          2.4567491146702145
+        ]
+      },
+      "five_plus": {
+        "label": "Units in buildings with 5+ units",
+        "table": "B25024",
+        "estimate": 12.010050251256281,
+        "moe90_pp": 3.6012040149365436,
+        "numerator": 239.0,
+        "denominator": 1990.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25024_E006",
+          "B25024_E007",
+          "B25024_E008",
+          "B25024_E009"
+        ],
+        "denominator_column": "B25024_E001",
+        "interval90_clipped": [
+          8.408846236319738,
+          15.611254266192825
+        ]
+      },
+      "zero_one_bed": {
+        "label": "Zero or one bedroom",
+        "table": "B25041",
+        "estimate": 8.391959798994975,
+        "moe90_pp": 3.6529358708391073,
+        "numerator": 167.0,
+        "denominator": 1990.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25041_E002",
+          "B25041_E003"
+        ],
+        "denominator_column": "B25041_E001",
+        "interval90_clipped": [
+          4.739023928155868,
+          12.044895669834082
+        ]
+      },
+      "two_bed": {
+        "label": "Two bedrooms",
+        "table": "B25041",
+        "estimate": 23.618090452261306,
+        "moe90_pp": 5.306738883779099,
+        "numerator": 470.0,
+        "denominator": 1990.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25041_E004"
+        ],
+        "denominator_column": "B25041_E001",
+        "interval90_clipped": [
+          18.31135156848221,
+          28.924829336040403
+        ]
+      },
+      "three_bed": {
+        "label": "Three bedrooms",
+        "table": "B25041",
+        "estimate": 48.69346733668342,
+        "moe90_pp": 13.916280008239438,
+        "numerator": 969.0,
+        "denominator": 1990.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25041_E005"
+        ],
+        "denominator_column": "B25041_E001",
+        "interval90_clipped": [
+          34.77718732844398,
+          62.60974734492286
+        ]
+      },
+      "four_plus_bed": {
+        "label": "Four or more bedrooms",
+        "table": "B25041",
+        "estimate": 19.2964824120603,
+        "moe90_pp": 7.619029248119058,
+        "numerator": 384.0,
+        "denominator": 1990.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25041_E006",
+          "B25041_E007"
+        ],
+        "denominator_column": "B25041_E001",
+        "interval90_clipped": [
+          11.67745316394124,
+          26.91551166017936
+        ]
+      },
+      "three_plus_bed": {
+        "label": "Three or more bedrooms",
+        "table": "B25041",
+        "estimate": 67.98994974874371,
+        "moe90_pp": 14.241327008134546,
+        "numerator": 1353.0,
+        "denominator": 1990.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25041_E005",
+          "B25041_E006",
+          "B25041_E007"
+        ],
+        "denominator_column": "B25041_E001",
+        "interval90_clipped": [
+          53.748622740609164,
+          82.23127675687826
+        ]
+      },
+      "pre1940": {
+        "label": "Built before 1940",
+        "table": "B25034",
+        "estimate": 7.4371859296482405,
+        "moe90_pp": 3.1458499968569638,
+        "numerator": 148.0,
+        "denominator": 1990.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25034_E011"
+        ],
+        "denominator_column": "B25034_E001",
+        "interval90_clipped": [
+          4.291335932791277,
+          10.583035926505204
+        ]
+      },
+      "built1940_1969": {
+        "label": "Built 1940–1969",
+        "table": "B25034",
+        "estimate": 74.77386934673366,
+        "moe90_pp": 11.916799260515045,
+        "numerator": 1488.0,
+        "denominator": 1990.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25034_E008",
+          "B25034_E009",
+          "B25034_E010"
+        ],
+        "denominator_column": "B25034_E001",
+        "interval90_clipped": [
+          62.85707008621861,
+          86.69066860724871
+        ]
+      },
+      "built1970_1999": {
+        "label": "Built 1970–1999",
+        "table": "B25034",
+        "estimate": 14.170854271356784,
+        "moe90_pp": 4.9638987666358245,
+        "numerator": 282.0,
+        "denominator": 1990.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25034_E005",
+          "B25034_E006",
+          "B25034_E007"
+        ],
+        "denominator_column": "B25034_E001",
+        "interval90_clipped": [
+          9.206955504720959,
+          19.13475303799261
+        ]
+      },
+      "built2000_plus": {
+        "label": "Built 2000 or later",
+        "table": "B25034",
+        "estimate": 3.618090452261306,
+        "moe90_pp": 2.354909933005262,
+        "numerator": 72.0,
+        "denominator": 1990.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25034_E002",
+          "B25034_E003",
+          "B25034_E004"
+        ],
+        "denominator_column": "B25034_E001",
+        "interval90_clipped": [
+          1.2631805192560441,
+          5.973000385266568
+        ]
+      },
+      "owner_occupied": {
+        "label": "Owner-occupied share of occupied homes",
+        "table": "B25003",
+        "estimate": 61.01522842639594,
+        "moe90_pp": 13.95797889928267,
+        "numerator": 1202.0,
+        "denominator": 1970.0,
+        "method": "ratio_fallback_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25003_E002"
+        ],
+        "denominator_column": "B25003_E001",
+        "interval90_clipped": [
+          47.05724952711327,
+          74.97320732567862
+        ]
+      },
+      "vacant": {
+        "label": "Vacant share of housing units",
+        "table": "B25002",
+        "estimate": 1.0050251256281406,
+        "moe90_pp": 1.5998472827170438,
+        "numerator": 20.0,
+        "denominator": 1990.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25002_E003"
+        ],
+        "denominator_column": "B25002_E001",
+        "interval90_clipped": [
+          0,
+          2.6048724083451846
+        ]
+      },
+      "fixed_broadband_subscription": {
+        "label": "Households subscribing to cable/fiber/DSL",
+        "table": "B28002",
+        "estimate": 85.43147208121827,
+        "moe90_pp": 11.602527628119864,
+        "numerator": 1683.0,
+        "denominator": 1970.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B28002_E007"
+        ],
+        "denominator_column": "B28002_E001",
+        "interval90_clipped": [
+          73.82894445309842,
+          97.03399970933813
+        ]
+      },
+      "cellular_only": {
+        "label": "Households with cellular-only subscriptions",
+        "table": "B28002",
+        "estimate": 9.035532994923857,
+        "moe90_pp": 5.438764602578651,
+        "numerator": 178.0,
+        "denominator": 1970.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B28002_E006"
+        ],
+        "denominator_column": "B28002_E001",
+        "interval90_clipped": [
+          3.596768392345206,
+          14.474297597502508
+        ]
+      },
+      "value": {
+        "label": "Median owner-reported home value",
+        "table": "B25077",
+        "column": 1,
+        "estimate": 816500.0,
+        "moe90_dollars": 48702.0,
+        "raw_estimate": "816500",
+        "raw_moe": "48702",
+        "unit": "2024_USD",
+        "status": "published_estimate"
+      },
+      "rent": {
+        "label": "Median gross monthly rent",
+        "table": "B25064",
+        "column": 1,
+        "estimate": 2971.0,
+        "moe90_dollars": 365.0,
+        "raw_estimate": "2971",
+        "raw_moe": "365",
+        "unit": "2024_USD",
+        "status": "published_estimate"
+      },
+      "owner_cost_mortgage": {
+        "label": "Median monthly owner costs, with mortgage",
+        "table": "B25088",
+        "column": 2,
+        "estimate": 3387.0,
+        "moe90_dollars": 445.0,
+        "raw_estimate": "3387",
+        "raw_moe": "445",
+        "unit": "2024_USD",
+        "status": "published_estimate"
+      },
+      "owner_cost_no_mortgage": {
+        "label": "Median monthly owner costs, no mortgage",
+        "table": "B25088",
+        "column": 3,
+        "estimate": 1053.0,
+        "moe90_dollars": 328.0,
+        "raw_estimate": "1053",
+        "raw_moe": "328",
+        "unit": "2024_USD",
+        "status": "published_estimate"
+      }
+    },
+    "1400000US19169000900": {
+      "detached": {
+        "label": "Detached homes",
+        "table": "B25024",
+        "estimate": 59.95965708522441,
+        "moe90_pp": 6.458678775456914,
+        "numerator": 1189.0,
+        "denominator": 1983.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25024_E002"
+        ],
+        "denominator_column": "B25024_E001",
+        "interval90_clipped": [
+          53.50097830976749,
+          66.41833586068132
+        ]
+      },
+      "attached": {
+        "label": "Attached single-unit homes",
+        "table": "B25024",
+        "estimate": 1.059001512859304,
+        "moe90_pp": 1.1540011466578028,
+        "numerator": 21.0,
+        "denominator": 1983.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25024_E003"
+        ],
+        "denominator_column": "B25024_E001",
+        "interval90_clipped": [
+          0,
+          2.213002659517107
+        ]
+      },
+      "two_to_four": {
+        "label": "Units in 2–4-unit buildings",
+        "table": "B25024",
+        "estimate": 21.58345940494201,
+        "moe90_pp": 6.651252241607263,
+        "numerator": 428.0,
+        "denominator": 1983.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25024_E004",
+          "B25024_E005"
+        ],
+        "denominator_column": "B25024_E001",
+        "interval90_clipped": [
+          14.932207163334745,
+          28.234711646549272
+        ]
+      },
+      "five_plus": {
+        "label": "Units in buildings with 5+ units",
+        "table": "B25024",
+        "estimate": 16.187594553706504,
+        "moe90_pp": 5.244746102561767,
+        "numerator": 321.0,
+        "denominator": 1983.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25024_E006",
+          "B25024_E007",
+          "B25024_E008",
+          "B25024_E009"
+        ],
+        "denominator_column": "B25024_E001",
+        "interval90_clipped": [
+          10.942848451144737,
+          21.43234065626827
+        ]
+      },
+      "zero_one_bed": {
+        "label": "Zero or one bedroom",
+        "table": "B25041",
+        "estimate": 13.41401916288452,
+        "moe90_pp": 4.846891184051762,
+        "numerator": 266.0,
+        "denominator": 1983.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25041_E002",
+          "B25041_E003"
+        ],
+        "denominator_column": "B25041_E001",
+        "interval90_clipped": [
+          8.567127978832758,
+          18.26091034693628
+        ]
+      },
+      "two_bed": {
+        "label": "Two bedrooms",
+        "table": "B25041",
+        "estimate": 37.367624810892586,
+        "moe90_pp": 9.21120782376462,
+        "numerator": 741.0,
+        "denominator": 1983.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25041_E004"
+        ],
+        "denominator_column": "B25041_E001",
+        "interval90_clipped": [
+          28.156416987127965,
+          46.5788326346572
+        ]
+      },
+      "three_bed": {
+        "label": "Three bedrooms",
+        "table": "B25041",
+        "estimate": 31.921331316187597,
+        "moe90_pp": 4.991783743836417,
+        "numerator": 633.0,
+        "denominator": 1983.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25041_E005"
+        ],
+        "denominator_column": "B25041_E001",
+        "interval90_clipped": [
+          26.92954757235118,
+          36.91311506002401
+        ]
+      },
+      "four_plus_bed": {
+        "label": "Four or more bedrooms",
+        "table": "B25041",
+        "estimate": 17.2970247100353,
+        "moe90_pp": 4.909518753462517,
+        "numerator": 343.0,
+        "denominator": 1983.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25041_E006",
+          "B25041_E007"
+        ],
+        "denominator_column": "B25041_E001",
+        "interval90_clipped": [
+          12.387505956572781,
+          22.206543463497816
+        ]
+      },
+      "three_plus_bed": {
+        "label": "Three or more bedrooms",
+        "table": "B25041",
+        "estimate": 49.21835602622289,
+        "moe90_pp": 5.972881642743737,
+        "numerator": 976.0,
+        "denominator": 1983.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25041_E005",
+          "B25041_E006",
+          "B25041_E007"
+        ],
+        "denominator_column": "B25041_E001",
+        "interval90_clipped": [
+          43.245474383479156,
+          55.19123766896663
+        ]
+      },
+      "pre1940": {
+        "label": "Built before 1940",
+        "table": "B25034",
+        "estimate": 54.563792233988906,
+        "moe90_pp": 7.9822536572404115,
+        "numerator": 1082.0,
+        "denominator": 1983.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25034_E011"
+        ],
+        "denominator_column": "B25034_E001",
+        "interval90_clipped": [
+          46.58153857674849,
+          62.54604589122932
+        ]
+      },
+      "built1940_1969": {
+        "label": "Built 1940–1969",
+        "table": "B25034",
+        "estimate": 23.398890569843672,
+        "moe90_pp": 7.7193756313010855,
+        "numerator": 464.0,
+        "denominator": 1983.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25034_E008",
+          "B25034_E009",
+          "B25034_E010"
+        ],
+        "denominator_column": "B25034_E001",
+        "interval90_clipped": [
+          15.679514938542587,
+          31.118266201144756
+        ]
+      },
+      "built1970_1999": {
+        "label": "Built 1970–1999",
+        "table": "B25034",
+        "estimate": 16.49016641452345,
+        "moe90_pp": 4.994651228269946,
+        "numerator": 327.0,
+        "denominator": 1983.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25034_E005",
+          "B25034_E006",
+          "B25034_E007"
+        ],
+        "denominator_column": "B25034_E001",
+        "interval90_clipped": [
+          11.495515186253504,
+          21.484817642793395
+        ]
+      },
+      "built2000_plus": {
+        "label": "Built 2000 or later",
+        "table": "B25034",
+        "estimate": 5.547150781643974,
+        "moe90_pp": 3.8865288654560315,
+        "numerator": 110.0,
+        "denominator": 1983.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25034_E002",
+          "B25034_E003",
+          "B25034_E004"
+        ],
+        "denominator_column": "B25034_E001",
+        "interval90_clipped": [
+          1.6606219161879423,
+          9.433679647100005
+        ]
+      },
+      "owner_occupied": {
+        "label": "Owner-occupied share of occupied homes",
+        "table": "B25003",
+        "estimate": 55.58674901740596,
+        "moe90_pp": 5.894922507650256,
+        "numerator": 990.0,
+        "denominator": 1781.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25003_E002"
+        ],
+        "denominator_column": "B25003_E001",
+        "interval90_clipped": [
+          49.6918265097557,
+          61.481671525056214
+        ]
+      },
+      "vacant": {
+        "label": "Vacant share of housing units",
+        "table": "B25002",
+        "estimate": 10.186585980837116,
+        "moe90_pp": 5.9469162982994686,
+        "numerator": 202.0,
+        "denominator": 1983.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25002_E003"
+        ],
+        "denominator_column": "B25002_E001",
+        "interval90_clipped": [
+          4.239669682537647,
+          16.133502279136586
+        ]
+      },
+      "fixed_broadband_subscription": {
+        "label": "Households subscribing to cable/fiber/DSL",
+        "table": "B28002",
+        "estimate": 81.02189781021897,
+        "moe90_pp": 8.180383726629941,
+        "numerator": 1443.0,
+        "denominator": 1781.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B28002_E007"
+        ],
+        "denominator_column": "B28002_E001",
+        "interval90_clipped": [
+          72.84151408358903,
+          89.20228153684891
+        ]
+      },
+      "cellular_only": {
+        "label": "Households with cellular-only subscriptions",
+        "table": "B28002",
+        "estimate": 6.457046603032005,
+        "moe90_pp": 4.084617651021888,
+        "numerator": 115.0,
+        "denominator": 1781.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B28002_E006"
+        ],
+        "denominator_column": "B28002_E001",
+        "interval90_clipped": [
+          2.372428952010117,
+          10.541664254053892
+        ]
+      },
+      "value": {
+        "label": "Median owner-reported home value",
+        "table": "B25077",
+        "column": 1,
+        "estimate": 221300.0,
+        "moe90_dollars": 10161.0,
+        "raw_estimate": "221300",
+        "raw_moe": "10161",
+        "unit": "2024_USD",
+        "status": "published_estimate"
+      },
+      "rent": {
+        "label": "Median gross monthly rent",
+        "table": "B25064",
+        "column": 1,
+        "estimate": 914.0,
+        "moe90_dollars": 54.0,
+        "raw_estimate": "914",
+        "raw_moe": "54",
+        "unit": "2024_USD",
+        "status": "published_estimate"
+      },
+      "owner_cost_mortgage": {
+        "label": "Median monthly owner costs, with mortgage",
+        "table": "B25088",
+        "column": 2,
+        "estimate": 1444.0,
+        "moe90_dollars": 208.0,
+        "raw_estimate": "1444",
+        "raw_moe": "208",
+        "unit": "2024_USD",
+        "status": "published_estimate"
+      },
+      "owner_cost_no_mortgage": {
+        "label": "Median monthly owner costs, no mortgage",
+        "table": "B25088",
+        "column": 3,
+        "estimate": 625.0,
+        "moe90_dollars": 129.0,
+        "raw_estimate": "625",
+        "raw_moe": "129",
+        "unit": "2024_USD",
+        "status": "published_estimate"
+      }
+    },
+    "1500000US060371112022": {
+      "detached": {
+        "label": "Detached homes",
+        "table": "B25024",
+        "estimate": 93.13131313131314,
+        "moe90_pp": 13.126634367810578,
+        "numerator": 461.0,
+        "denominator": 495.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25024_E002"
+        ],
+        "denominator_column": "B25024_E001",
+        "interval90_clipped": [
+          80.00467876350255,
+          100
+        ]
+      },
+      "attached": {
+        "label": "Attached single-unit homes",
+        "table": "B25024",
+        "estimate": 0.0,
+        "moe90_pp": 2.8282828282828283,
+        "numerator": 0.0,
+        "denominator": 495.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25024_E003"
+        ],
+        "denominator_column": "B25024_E001",
+        "interval90_clipped": [
+          0,
+          2.8282828282828283
+        ]
+      },
+      "two_to_four": {
+        "label": "Units in 2–4-unit buildings",
+        "table": "B25024",
+        "estimate": 4.040404040404041,
+        "moe90_pp": 5.079771618724089,
+        "numerator": 20.0,
+        "denominator": 495.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25024_E004",
+          "B25024_E005"
+        ],
+        "denominator_column": "B25024_E001",
+        "interval90_clipped": [
+          0,
+          9.12017565912813
+        ]
+      },
+      "five_plus": {
+        "label": "Units in buildings with 5+ units",
+        "table": "B25024",
+        "estimate": 2.8282828282828283,
+        "moe90_pp": 4.922041307699988,
+        "numerator": 14.0,
+        "denominator": 495.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25024_E006",
+          "B25024_E007",
+          "B25024_E008",
+          "B25024_E009"
+        ],
+        "denominator_column": "B25024_E001",
+        "interval90_clipped": [
+          0,
+          7.750324135982817
+        ]
+      },
+      "zero_one_bed": {
+        "label": "Zero or one bedroom",
+        "table": "B25041",
+        "estimate": 12.929292929292929,
+        "moe90_pp": 9.89937764479423,
+        "numerator": 64.0,
+        "denominator": 495.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25041_E002",
+          "B25041_E003"
+        ],
+        "denominator_column": "B25041_E001",
+        "interval90_clipped": [
+          3.029915284498699,
+          22.82867057408716
+        ]
+      },
+      "two_bed": {
+        "label": "Two bedrooms",
+        "table": "B25041",
+        "estimate": 36.96969696969697,
+        "moe90_pp": 15.127875818402082,
+        "numerator": 183.0,
+        "denominator": 495.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25041_E004"
+        ],
+        "denominator_column": "B25041_E001",
+        "interval90_clipped": [
+          21.841821151294887,
+          52.09757278809905
+        ]
+      },
+      "three_bed": {
+        "label": "Three bedrooms",
+        "table": "B25041",
+        "estimate": 17.97979797979798,
+        "moe90_pp": 7.446622010080802,
+        "numerator": 89.0,
+        "denominator": 495.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25041_E005"
+        ],
+        "denominator_column": "B25041_E001",
+        "interval90_clipped": [
+          10.533175969717178,
+          25.42641998987878
+        ]
+      },
+      "four_plus_bed": {
+        "label": "Four or more bedrooms",
+        "table": "B25041",
+        "estimate": 32.121212121212125,
+        "moe90_pp": 23.63549571983647,
+        "numerator": 159.0,
+        "denominator": 495.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25041_E006",
+          "B25041_E007"
+        ],
+        "denominator_column": "B25041_E001",
+        "interval90_clipped": [
+          8.485716401375655,
+          55.756707841048595
+        ]
+      },
+      "three_plus_bed": {
+        "label": "Three or more bedrooms",
+        "table": "B25041",
+        "estimate": 50.101010101010104,
+        "moe90_pp": 21.82302957896083,
+        "numerator": 248.0,
+        "denominator": 495.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25041_E005",
+          "B25041_E006",
+          "B25041_E007"
+        ],
+        "denominator_column": "B25041_E001",
+        "interval90_clipped": [
+          28.277980522049273,
+          71.92403967997093
+        ]
+      },
+      "pre1940": {
+        "label": "Built before 1940",
+        "table": "B25034",
+        "estimate": 4.848484848484849,
+        "moe90_pp": 4.334078843578659,
+        "numerator": 24.0,
+        "denominator": 495.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25034_E011"
+        ],
+        "denominator_column": "B25034_E001",
+        "interval90_clipped": [
+          0.5144060049061894,
+          9.182563692063507
+        ]
+      },
+      "built1940_1969": {
+        "label": "Built 1940–1969",
+        "table": "B25034",
+        "estimate": 81.21212121212122,
+        "moe90_pp": 24.866024539596683,
+        "numerator": 402.0,
+        "denominator": 495.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25034_E008",
+          "B25034_E009",
+          "B25034_E010"
+        ],
+        "denominator_column": "B25034_E001",
+        "interval90_clipped": [
+          56.34609667252454,
+          100
+        ]
+      },
+      "built1970_1999": {
+        "label": "Built 1970–1999",
+        "table": "B25034",
+        "estimate": 13.939393939393941,
+        "moe90_pp": 6.445133963286992,
+        "numerator": 69.0,
+        "denominator": 495.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25034_E005",
+          "B25034_E006",
+          "B25034_E007"
+        ],
+        "denominator_column": "B25034_E001",
+        "interval90_clipped": [
+          7.4942599761069495,
+          20.384527902680933
+        ]
+      },
+      "built2000_plus": {
+        "label": "Built 2000 or later",
+        "table": "B25034",
+        "estimate": 0.0,
+        "moe90_pp": 4.89872955676046,
+        "numerator": 0.0,
+        "denominator": 495.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25034_E002",
+          "B25034_E003",
+          "B25034_E004"
+        ],
+        "denominator_column": "B25034_E001",
+        "interval90_clipped": [
+          0,
+          4.89872955676046
+        ]
+      },
+      "owner_occupied": {
+        "label": "Owner-occupied share of occupied homes",
+        "table": "B25003",
+        "estimate": 62.82828282828283,
+        "moe90_pp": 23.678997868381437,
+        "numerator": 311.0,
+        "denominator": 495.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25003_E002"
+        ],
+        "denominator_column": "B25003_E001",
+        "interval90_clipped": [
+          39.149284959901394,
+          86.50728069666427
+        ]
+      },
+      "vacant": {
+        "label": "Vacant share of housing units",
+        "table": "B25002",
+        "estimate": 0.0,
+        "moe90_pp": 2.8282828282828283,
+        "numerator": 0.0,
+        "denominator": 495.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25002_E003"
+        ],
+        "denominator_column": "B25002_E001",
+        "interval90_clipped": [
+          0,
+          2.8282828282828283
+        ]
+      },
+      "fixed_broadband_subscription": {
+        "label": "Households subscribing to cable/fiber/DSL",
+        "table": "B28002",
+        "estimate": 76.16161616161617,
+        "moe90_pp": 18.77645964128011,
+        "numerator": 377.0,
+        "denominator": 495.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B28002_E007"
+        ],
+        "denominator_column": "B28002_E001",
+        "interval90_clipped": [
+          57.385156520336054,
+          94.93807580289628
+        ]
+      },
+      "cellular_only": {
+        "label": "Households with cellular-only subscriptions",
+        "table": "B28002",
+        "estimate": 16.565656565656568,
+        "moe90_pp": 15.760897888385868,
+        "numerator": 82.0,
+        "denominator": 495.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B28002_E006"
+        ],
+        "denominator_column": "B28002_E001",
+        "interval90_clipped": [
+          0.8047586772706996,
+          32.32655445404244
+        ]
+      },
+      "value": {
+        "label": "Median owner-reported home value",
+        "table": "B25077",
+        "column": 1,
+        "estimate": 790400.0,
+        "moe90_dollars": 136789.0,
+        "raw_estimate": "790400",
+        "raw_moe": "136789",
+        "unit": "2024_USD",
+        "status": "published_estimate"
+      },
+      "rent": {
+        "label": "Median gross monthly rent",
+        "table": "B25064",
+        "column": 1,
+        "estimate": 2658.0,
+        "moe90_dollars": 402.0,
+        "raw_estimate": "2658",
+        "raw_moe": "402",
+        "unit": "2024_USD",
+        "status": "published_estimate"
+      },
+      "owner_cost_mortgage": {
+        "label": "Median monthly owner costs, with mortgage",
+        "table": "B25088",
+        "column": 2,
+        "estimate": 3424.0,
+        "moe90_dollars": 659.0,
+        "raw_estimate": "3424",
+        "raw_moe": "659",
+        "unit": "2024_USD",
+        "status": "published_estimate"
+      },
+      "owner_cost_no_mortgage": {
+        "label": "Median monthly owner costs, no mortgage",
+        "table": "B25088",
+        "column": 3,
+        "estimate": 1501.0,
+        "moe90_dollars": null,
+        "raw_estimate": "1501",
+        "raw_moe": "-333333333",
+        "unit": "2024_USD",
+        "status": "median_open_interval"
+      }
+    },
+    "1500000US191690009002": {
+      "detached": {
+        "label": "Detached homes",
+        "table": "B25024",
+        "estimate": 53.333333333333336,
+        "moe90_pp": 22.20415977043741,
+        "numerator": 200.0,
+        "denominator": 375.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25024_E002"
+        ],
+        "denominator_column": "B25024_E001",
+        "interval90_clipped": [
+          31.129173562895925,
+          75.53749310377074
+        ]
+      },
+      "attached": {
+        "label": "Attached single-unit homes",
+        "table": "B25024",
+        "estimate": 0.0,
+        "moe90_pp": 2.6666666666666665,
+        "numerator": 0.0,
+        "denominator": 375.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25024_E003"
+        ],
+        "denominator_column": "B25024_E001",
+        "interval90_clipped": [
+          0,
+          2.6666666666666665
+        ]
+      },
+      "two_to_four": {
+        "label": "Units in 2–4-unit buildings",
+        "table": "B25024",
+        "estimate": 26.13333333333333,
+        "moe90_pp": 15.576042723219386,
+        "numerator": 98.0,
+        "denominator": 375.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25024_E004",
+          "B25024_E005"
+        ],
+        "denominator_column": "B25024_E001",
+        "interval90_clipped": [
+          10.557290610113943,
+          41.70937605655271
+        ]
+      },
+      "five_plus": {
+        "label": "Units in buildings with 5+ units",
+        "table": "B25024",
+        "estimate": 20.533333333333335,
+        "moe90_pp": 10.03332975769593,
+        "numerator": 77.0,
+        "denominator": 375.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25024_E006",
+          "B25024_E007",
+          "B25024_E008",
+          "B25024_E009"
+        ],
+        "denominator_column": "B25024_E001",
+        "interval90_clipped": [
+          10.500003575637406,
+          30.566663091029262
+        ]
+      },
+      "zero_one_bed": {
+        "label": "Zero or one bedroom",
+        "table": "B25041",
+        "estimate": 9.866666666666667,
+        "moe90_pp": 11.837253062730015,
+        "numerator": 37.0,
+        "denominator": 375.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25041_E002",
+          "B25041_E003"
+        ],
+        "denominator_column": "B25041_E001",
+        "interval90_clipped": [
+          0,
+          21.70391972939668
+        ]
+      },
+      "two_bed": {
+        "label": "Two bedrooms",
+        "table": "B25041",
+        "estimate": 45.06666666666666,
+        "moe90_pp": 22.27357552537186,
+        "numerator": 169.0,
+        "denominator": 375.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25041_E004"
+        ],
+        "denominator_column": "B25041_E001",
+        "interval90_clipped": [
+          22.793091141294802,
+          67.34024219203852
+        ]
+      },
+      "three_bed": {
+        "label": "Three bedrooms",
+        "table": "B25041",
+        "estimate": 34.66666666666667,
+        "moe90_pp": 12.473780786558304,
+        "numerator": 130.0,
+        "denominator": 375.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25041_E005"
+        ],
+        "denominator_column": "B25041_E001",
+        "interval90_clipped": [
+          22.192885880108367,
+          47.14044745322498
+        ]
+      },
+      "four_plus_bed": {
+        "label": "Four or more bedrooms",
+        "table": "B25041",
+        "estimate": 10.4,
+        "moe90_pp": 11.242096076602245,
+        "numerator": 39.0,
+        "denominator": 375.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25041_E006",
+          "B25041_E007"
+        ],
+        "denominator_column": "B25041_E001",
+        "interval90_clipped": [
+          0,
+          21.642096076602243
+        ]
+      },
+      "three_plus_bed": {
+        "label": "Three or more bedrooms",
+        "table": "B25041",
+        "estimate": 45.06666666666666,
+        "moe90_pp": 14.162428778520535,
+        "numerator": 169.0,
+        "denominator": 375.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25041_E005",
+          "B25041_E006",
+          "B25041_E007"
+        ],
+        "denominator_column": "B25041_E001",
+        "interval90_clipped": [
+          30.904237888146127,
+          59.2290954451872
+        ]
+      },
+      "pre1940": {
+        "label": "Built before 1940",
+        "table": "B25034",
+        "estimate": 40.0,
+        "moe90_pp": 22.722816726805682,
+        "numerator": 150.0,
+        "denominator": 375.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25034_E011"
+        ],
+        "denominator_column": "B25034_E001",
+        "interval90_clipped": [
+          17.277183273194318,
+          62.72281672680568
+        ]
+      },
+      "built1940_1969": {
+        "label": "Built 1940–1969",
+        "table": "B25034",
+        "estimate": 29.06666666666667,
+        "moe90_pp": 16.129878691284556,
+        "numerator": 109.0,
+        "denominator": 375.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25034_E008",
+          "B25034_E009",
+          "B25034_E010"
+        ],
+        "denominator_column": "B25034_E001",
+        "interval90_clipped": [
+          12.936787975382114,
+          45.19654535795122
+        ]
+      },
+      "built1970_1999": {
+        "label": "Built 1970–1999",
+        "table": "B25034",
+        "estimate": 27.73333333333333,
+        "moe90_pp": 13.52638077963043,
+        "numerator": 104.0,
+        "denominator": 375.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25034_E005",
+          "B25034_E006",
+          "B25034_E007"
+        ],
+        "denominator_column": "B25034_E001",
+        "interval90_clipped": [
+          14.206952553702902,
+          41.25971411296376
+        ]
+      },
+      "built2000_plus": {
+        "label": "Built 2000 or later",
+        "table": "B25034",
+        "estimate": 3.2,
+        "moe90_pp": 6.223927883044061,
+        "numerator": 12.0,
+        "denominator": 375.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25034_E002",
+          "B25034_E003",
+          "B25034_E004"
+        ],
+        "denominator_column": "B25034_E001",
+        "interval90_clipped": [
+          0,
+          9.423927883044062
+        ]
+      },
+      "owner_occupied": {
+        "label": "Owner-occupied share of occupied homes",
+        "table": "B25003",
+        "estimate": 47.94520547945205,
+        "moe90_pp": 13.973293755497153,
+        "numerator": 140.0,
+        "denominator": 292.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25003_E002"
+        ],
+        "denominator_column": "B25003_E001",
+        "interval90_clipped": [
+          33.971911723954896,
+          61.9184992349492
+        ]
+      },
+      "vacant": {
+        "label": "Vacant share of housing units",
+        "table": "B25002",
+        "estimate": 22.133333333333333,
+        "moe90_pp": 24.77455247233428,
+        "numerator": 83.0,
+        "denominator": 375.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B25002_E003"
+        ],
+        "denominator_column": "B25002_E001",
+        "interval90_clipped": [
+          0,
+          46.90788580566761
+        ]
+      },
+      "fixed_broadband_subscription": {
+        "label": "Households subscribing to cable/fiber/DSL",
+        "table": "B28002",
+        "estimate": 76.71232876712328,
+        "moe90_pp": 16.487298409049096,
+        "numerator": 224.0,
+        "denominator": 292.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B28002_E007"
+        ],
+        "denominator_column": "B28002_E001",
+        "interval90_clipped": [
+          60.225030358074186,
+          93.19962717617238
+        ]
+      },
+      "cellular_only": {
+        "label": "Households with cellular-only subscriptions",
+        "table": "B28002",
+        "estimate": 4.4520547945205475,
+        "moe90_pp": 7.0875907886131015,
+        "numerator": 13.0,
+        "denominator": 292.0,
+        "method": "subset_proportion_approximation",
+        "unit": "percent",
+        "numerator_columns": [
+          "B28002_E006"
+        ],
+        "denominator_column": "B28002_E001",
+        "interval90_clipped": [
+          0,
+          11.539645583133648
+        ]
+      },
+      "value": {
+        "label": "Median owner-reported home value",
+        "table": "B25077",
+        "column": 1,
+        "estimate": 225500.0,
+        "moe90_dollars": 8658.0,
+        "raw_estimate": "225500",
+        "raw_moe": "8658",
+        "unit": "2024_USD",
+        "status": "published_estimate"
+      },
+      "rent": {
+        "label": "Median gross monthly rent",
+        "table": "B25064",
+        "column": 1,
+        "estimate": 859.0,
+        "moe90_dollars": 70.0,
+        "raw_estimate": "859",
+        "raw_moe": "70",
+        "unit": "2024_USD",
+        "status": "published_estimate"
+      },
+      "owner_cost_mortgage": {
+        "label": "Median monthly owner costs, with mortgage",
+        "table": "B25088",
+        "column": 2,
+        "estimate": 1286.0,
+        "moe90_dollars": 730.0,
+        "raw_estimate": "1286",
+        "raw_moe": "730",
+        "unit": "2024_USD",
+        "status": "published_estimate"
+      },
+      "owner_cost_no_mortgage": {
+        "label": "Median monthly owner costs, no mortgage",
+        "table": "B25088",
+        "column": 3,
+        "estimate": 579.0,
+        "moe90_dollars": 274.0,
+        "raw_estimate": "579",
+        "raw_moe": "274",
+        "unit": "2024_USD",
+        "status": "published_estimate"
+      }
+    }
+  }
+}

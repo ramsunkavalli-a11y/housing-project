@@ -6,6 +6,7 @@ Read README.md, PLAN.md, and DECISIONS.md before making substantive changes.
 - Research, source inspection, planning documents, and routine corrections may proceed within the current request. Do not introduce repeated approval requests for these tasks.
 - Keep proposed choices separate from agreed decisions and completed work. Do not mark unperformed data audits or comparisons complete.
 - Current focus is buyer-relevant data and evidence. Read docs/homebuyer-data-review.md and its inventory/source/literature companions. The neighborhood comparison remains in docs/neighborhood-comparison.md; open geography decisions have not been silently approved.
+- The current worked example is docs/worked-area-profiles.md with docs/worked-area-methods.md. Granada Hills replaces Los Feliz for this example; Ames remains the comparison. Respect the distinction between tract, newer block group, older EPA block group, and named neighborhood.
 - Preserve the distinction between neighborhood names, source boundaries, exploration cross streets, and the geographic area a statistic actually measures.
 - Distinguish no shared fit, insufficient evidence, and outside coverage.
 - Cite primary sources and record release dates, provenance, and unresolved reuse terms. Do not infer data rights from a software license.

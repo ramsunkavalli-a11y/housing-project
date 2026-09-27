@@ -1,0 +1,57 @@
+{
+  "granada-geography.json": {
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?x=-118.5234289&y=34.2649105&benchmark=Public_AR_Current&vintage=ACS2024_Current&format=json&layers=Census+Tracts%2CCensus+Block+Groups",
+    "retrieved": "2026-09-27",
+    "sha256": "e9752da30e171b41a485d9c79c8c503653ff4e0328b970d30493150c594181d1"
+  },
+  "granada-tract-shape.json": {
+    "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2024/MapServer/8/query?f=json&where=GEOID%3D%2706037111202%27&outFields=GEOID%2CNAME%2CAREALAND&returnGeometry=true&outSR=4326",
+    "retrieved": "2026-09-27",
+    "sha256": "ba33d3ccd6a3423c29f93fc04283fd9dbf884473fcc98da71fe21882ca784ea7"
+  },
+  "granada-bg-shape.json": {
+    "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2024/MapServer/10/query?f=json&where=GEOID%3D%27060371112022%27&outFields=GEOID%2CNAME%2CAREALAND&returnGeometry=true&outSR=4326",
+    "retrieved": "2026-09-27",
+    "sha256": "bbb3f2a586155b53d7a8a1d8b1f470469bf6f7a6b411f6f2b22a74caccc59e59"
+  },
+  "granada-library-geocode.json": {
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=10640+Petit+Avenue%2C+Granada+Hills%2C+CA+91344&benchmark=Public_AR_Current&format=json",
+    "retrieved": "2026-09-27",
+    "sha256": "4c5f16adc2b5128737705b00eaaac216984aac10a406da5713f6b683d4ad968b"
+  },
+  "granada-sld-nearby.json": {
+    "url": "https://geodata.epa.gov/arcgis/rest/services/OA/SmartLocationDatabase/MapServer/1/query?f=json&geometry=-118.524%2C34.2644%2C-118.5228%2C34.2655&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=GEOID10%2CGEOID20%2CAc_Land%2CD1A%2CD1C%2CD3B%2CD4A%2CD4C%2CD5AR%2CD5BR%2CNatWalkInd%2COBJECTID&returnGeometry=true&outSR=4326",
+    "retrieved": "2026-09-27",
+    "sha256": "36cdab91cff47ce30c1cdfa6d96142214bcc370fee57fbfe1399ab661a0910da"
+  },
+  "ames-geography.json": {
+    "url": "https://geocoding.geo.census.gov/geocoder/geographies/coordinates?x=-93.6122056&y=42.0301687&benchmark=Public_AR_Current&vintage=ACS2024_Current&format=json&layers=Census+Tracts%2CCensus+Block+Groups",
+    "retrieved": "2026-09-27",
+    "sha256": "656d161f7df872705175606484896fb0e817a18e7d0a2853d46a344f05f1739f"
+  },
+  "ames-tract-shape.json": {
+    "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2024/MapServer/8/query?f=json&where=GEOID%3D%2719169000900%27&outFields=GEOID%2CNAME%2CAREALAND&returnGeometry=true&outSR=4326",
+    "retrieved": "2026-09-27",
+    "sha256": "71382b0273c6538b4d738e76e0258c0f4b4eb5107da33255a81e3c8c50a260b8"
+  },
+  "ames-bg-shape.json": {
+    "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2024/MapServer/10/query?f=json&where=GEOID%3D%27191690009002%27&outFields=GEOID%2CNAME%2CAREALAND&returnGeometry=true&outSR=4326",
+    "retrieved": "2026-09-27",
+    "sha256": "ac267fd64bf089b64425e20caaaff9e49e473b3aeac29d4080d54cf658040e9a"
+  },
+  "ames-library-geocode.json": {
+    "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=515+Douglas+Avenue%2C+Ames%2C+IA+50010&benchmark=Public_AR_Current&format=json",
+    "retrieved": "2026-09-27",
+    "sha256": "385d8635653ebfdc09b2e171b0d26c0cfeb8435b02cd2cd85a68261fc95fb0bb"
+  },
+  "ames-sld.json": {
+    "url": "https://geodata.epa.gov/arcgis/rest/services/OA/SmartLocationDatabase/MapServer/1/query?f=json&geometry=-93.6122056%2C42.0301687&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=%2A&returnGeometry=true&outSR=4326",
+    "retrieved": "2026-09-27",
+    "sha256": "649468870a734027ec9f4f6cf1ae0d40b06675f9afd0f3ccc3ad132145c7805c"
+  },
+  "granada-sld.json": {
+    "url": "https://geodata.epa.gov/arcgis/rest/services/OA/SmartLocationDatabase/MapServer/1/query?f=json&geometry=-118.5234289%2C34.2649105&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=%2A&returnGeometry=true&outSR=4326",
+    "retrieved": "2026-09-27",
+    "sha256": "c00a375f4754ea08a836b38ed528b2bccacb89987782677916466568328c3ab4"
+  }
+}
