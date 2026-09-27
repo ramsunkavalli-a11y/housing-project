@@ -5,7 +5,7 @@ Read README.md, PLAN.md, and DECISIONS.md before making substantive changes.
 - The owner wants to understand components before major decisions are made and built. Explain options with concrete examples and record the agreed choice before implementing a major component.
 - Research, source inspection, planning documents, and routine corrections may proceed within the current request. Do not introduce repeated approval requests for these tasks.
 - Keep proposed choices separate from agreed decisions and completed work. Do not mark unperformed data audits or comparisons complete.
-- Current focus is neighborhood identity and coverage. Use docs/neighborhood-comparison.md for the first investigation.
+- Current focus is buyer-relevant data and evidence. Read docs/homebuyer-data-review.md and its inventory/source/literature companions. The neighborhood comparison remains in docs/neighborhood-comparison.md; open geography decisions have not been silently approved.
 - Preserve the distinction between neighborhood names, source boundaries, exploration cross streets, and the geographic area a statistic actually measures.
 - Distinguish no shared fit, insufficient evidence, and outside coverage.
 - Cite primary sources and record release dates, provenance, and unresolved reuse terms. Do not infer data rights from a software license.

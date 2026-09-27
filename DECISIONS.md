@@ -14,10 +14,13 @@ An agreed preference is not necessarily a completed implementation. A proposal i
 | Group conflict | Saying the choices are too different to find a shared fit is acceptable. | Owner's explicit instruction. |
 | Initial ambition | Build a useful first version and see whether it gains traction. | Owner's stated objective. |
 | Starting data priority | Favor broad coverage and free data; accept documented imperfections. | Owner: “comprehensive, but free, but may not be perfect.” |
+| Data inventory breadth | Start with many potentially useful components, then narrow; relevance to homebuyers is the test. | Owner's request for another literature sweep on raw data and components to collect. |
 | Audience | Support home seekers and, eventually, AI agents. | Owner's stated objective. |
 | Repository | Use ramsunkavalli-a11y/housing-project for project plans. | Owner supplied the repository and requested setup. |
 
 ## Proposals to investigate
+
+The [Component 2 research sweep](docs/homebuyer-data-review.md) proposes 16 buyer-relevant components and catalogs 28 source entries, including local-source categories and private household inputs. Actual ingestion, feature selection, scoring, and measurement units remain open. Documentation review is not a completed data-coverage audit.
 
 Current working recommendation: [Census geography plus Overture/OSM names and streets](docs/free-starting-point.md). Census provides the nationwide geographic foundation; neighborhood-name coverage remains incomplete. Specific providers and the measurement unit are recommendations, not recorded owner selections.
 

@@ -2,7 +2,7 @@
 
 Updated: 2026-09-27
 
-**Now: Component 1 — neighborhood identity and coverage.** Work through the remaining components one at a time. Their order is a proposal, not a commitment to build them all immediately.
+**Now: Component 2 — data and evidence research, at the owner's request.** Geography implementation decisions remain open. Work through the components with reviewable explanations before building them.
 
 Starting priority agreed: **broad coverage, free source data, acceptable imperfections**. The [working recommendation](docs/free-starting-point.md) is Census geography plus Overture/OSM names and streets. Next, explain which characteristics those areas can support before selecting the measurement unit or building ingestion.
 
@@ -30,7 +30,20 @@ Starting priority agreed: **broad coverage, free source data, acceptable imperfe
 - [ ] Discuss the source strategy and the meaning of a recommendation with the owner.
 - [ ] Resolve remaining reuse questions for the proposed product, including Zillow if selected.
 - [ ] Record the agreed strategy, including how to handle uncovered areas.
-- [ ] Move to Component 2: which neighborhood characteristics to measure.
+- [x] Begin Component 2 research at the owner's request, without treating open geography choices as approved.
+
+## Component 2 checklist
+
+- [x] Review residential-choice literature, buyer surveys, and measurement guidance: [literature notes](docs/homebuyer-literature.md).
+- [x] Assemble a broad buyer-relevant [candidate inventory](docs/homebuyer-data-inventory.md) before narrowing it.
+- [x] Identify free-source candidates, access methods, geographic limitations, and unresolved terms: [source catalog](docs/homebuyer-data-sources.md).
+- [x] Explain how raw observations become useful comparisons: [review](docs/homebuyer-data-review.md).
+- [ ] Discuss which components deserve a worked example first.
+- [ ] Audit actual fields, releases, coverage, and permissions for the selected small sample.
+- [ ] Produce a worked area profile, then compare urban and less-dense examples.
+- [ ] Select a collection batch and measurement geography based on that evidence.
+
+The broad inventory is not a commitment to collect or score every candidate. No new data pipeline or application was built during this literature sweep.
 
 ## For every component
 
