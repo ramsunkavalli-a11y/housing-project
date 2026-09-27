@@ -20,10 +20,13 @@ Updated: 2026-09-27
 - [x] Record the product principles and separate agreements from proposals.
 - [x] Inspect Urban Stats's neighborhood source and survey alternative resources.
 - [x] Write a small, reproducible neighborhood-comparison plan.
-- [ ] Inspect usable records and boundaries for the sample places.
-- [ ] Compare the names, geographic extent, gaps, and usefulness of cross streets.
-- [ ] Check relevant licenses for the specific data files and intended outputs.
-- [ ] Present the comparison and discuss a source strategy.
+- [x] Inspect usable records and boundaries for the sample places.
+- [x] Compare names, geographic extent, gaps, and mapped cross-street connections: [findings](docs/neighborhood-findings.md).
+- [x] Document applicable source terms and unresolved questions for these research outputs: [evidence](docs/neighborhood-evidence.md).
+- [x] Prepare the comparison and proposed source strategy for review.
+- [ ] Review names and the usefulness of candidate cross streets with local knowledge.
+- [ ] Discuss the source strategy and the meaning of a recommendation with the owner.
+- [ ] Resolve remaining reuse questions for the proposed product, including Zillow if selected.
 - [ ] Record the agreed strategy, including how to handle uncovered areas.
 - [ ] Move to Component 2: which neighborhood characteristics to measure.
 

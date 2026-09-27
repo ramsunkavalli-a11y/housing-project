@@ -1,6 +1,6 @@
 # First investigation: names, boundaries, and cross streets
 
-Status: plan ready; record-level comparison not yet performed.
+Status: record-level comparison and mapped cross-street checks performed on 2026-09-27. Read the [findings](neighborhood-findings.md) and [evidence](neighborhood-evidence.md). Local usefulness review, owner discussion, and source adoption remain pending.
 
 ## Purpose
 
@@ -32,7 +32,7 @@ Create one row for each source/place pair. Use `not inspected`, `not found in th
 
 | Place | Source / record ID / release | Names and aliases | Point or boundary? | Boundary purpose | Useful cross streets | Gaps or disagreement | Reuse terms verified? | Assessment |
 |---|---|---|---|---|---|---|---|---|
-| To inspect | | | | | | | | |
+| Results | See the linked findings, evidence tables, and inspection manifest. | | | | | | | |
 
 Possible assessments: usable as-is; usable with explanation; names only; needs local correction; unsupported. These are qualitative research judgments, not an invented accuracy score.
 

@@ -1,0 +1,1148 @@
+{
+  "inspected": "2026-09-27",
+  "area_crs": "EPSG:6933",
+  "note": "Research observations, not a provider selection or nationwide coverage claim. Terms and methods: ../neighborhood-evidence.md",
+  "source_files": [
+    {
+      "file": "zillow-archive.zip",
+      "bytes": 23598829,
+      "sha256": "6a5fc7bd16e74c49dae76879e86305442aae021202e2931dc44d1692b1636ae4"
+    },
+    {
+      "file": "LosAngelesCA_onm_cleaned.zip",
+      "bytes": 246995,
+      "sha256": "2e860ed4bdabe7e6e771781ca6f46d05a2300e7e6e40e590320963bc7065886a"
+    },
+    {
+      "file": "LosAngelesCA_nha_cleaned.zip",
+      "bytes": 133069,
+      "sha256": "c7ae494e2601d080c76ba9922374c556b18a6a329063db5ef4a6310069d49c10"
+    },
+    {
+      "file": "PasadenaCA_nha_cleaned.zip",
+      "bytes": 148044,
+      "sha256": "6634cc27ef99ee87fd014c893c3383144dbe1a76783626c1bd21d12451747173"
+    },
+    {
+      "file": "ChicagoIL_onm_cleaned.zip",
+      "bytes": 542505,
+      "sha256": "40f11977e6bc2d8d20557ab153e5781f1c36862785f197e43400cfa246d78c9c"
+    },
+    {
+      "file": "city_list.tab",
+      "bytes": 25666,
+      "sha256": "657fd93ed9da7ebfe78bdfc3010882a717dd93132f6d0e016dd0cb2ee9cce3b0"
+    },
+    {
+      "file": "wof-losfeliz.geojson",
+      "bytes": 11160,
+      "sha256": "85a275d1991998ac0aa20302bb9c6896002f41554aa5d08d440358073c8e1aa3"
+    },
+    {
+      "file": "wof-85848285.geojson",
+      "bytes": 99298,
+      "sha256": "e7fd24347ce30c63009a0c6c5c2072922c9e166c076018bface8cc93029e8729"
+    },
+    {
+      "file": "wof-85869419.geojson",
+      "bytes": 13796,
+      "sha256": "ed6ccfb14e51e75810ec95961883bc47a23ab3b3c173f50bfaa6d2a3fa9a9a4d"
+    },
+    {
+      "file": "wof-ames-child-85839623.geojson",
+      "bytes": 11354,
+      "sha256": "9c21b669832359ca13ec8fab251181491644407ea83e35e4d7bfb91b63117674"
+    }
+  ],
+  "wof_revision": "c4e4f9b2233c4b29a6f7124278b635e270d0b87d",
+  "overture_release": "2026-09-23.1",
+  "areas": [
+    {
+      "name": "Sherman Oaks",
+      "source": "Zillow 2017",
+      "id": "27080",
+      "kind": null,
+      "file": null,
+      "geometry": "MultiPolygon",
+      "valid": true,
+      "area_km2": 25.6333,
+      "bounds": [
+        -118.47573896268295,
+        34.12640594098144,
+        -118.40774723025044,
+        34.1794285595804
+      ]
+    },
+    {
+      "name": "Los Feliz",
+      "source": "Zillow 2017",
+      "id": "274359",
+      "kind": null,
+      "file": null,
+      "geometry": "MultiPolygon",
+      "valid": true,
+      "area_km2": 6.8206,
+      "bounds": [
+        -118.30942376369569,
+        34.09378782444861,
+        -118.26528343598176,
+        34.121585687229754
+      ]
+    },
+    {
+      "name": "Edwards",
+      "source": "Zillow 2017",
+      "id": "259986",
+      "kind": null,
+      "file": null,
+      "geometry": "MultiPolygon",
+      "valid": true,
+      "area_km2": 0.4175,
+      "bounds": [
+        -93.6771593457272,
+        42.02281333866472,
+        -93.66479512719332,
+        42.02912953909703
+      ]
+    },
+    {
+      "name": "Oak-Riverside",
+      "source": "Zillow 2017",
+      "id": "764182",
+      "kind": null,
+      "file": null,
+      "geometry": "MultiPolygon",
+      "valid": true,
+      "area_km2": 0.4293,
+      "bounds": [
+        -93.63123781087626,
+        42.019160898656594,
+        -93.62366922085783,
+        42.02660255656281
+      ]
+    },
+    {
+      "name": "Meeker North",
+      "source": "Zillow 2017",
+      "id": "764183",
+      "kind": null,
+      "file": null,
+      "geometry": "MultiPolygon",
+      "valid": true,
+      "area_km2": 0.3223,
+      "bounds": [
+        -93.62051246917508,
+        42.042009624944285,
+        -93.61072051224181,
+        42.04578630629305
+      ]
+    },
+    {
+      "name": "Allenview",
+      "source": "Zillow 2017",
+      "id": "764184",
+      "kind": null,
+      "file": null,
+      "geometry": "MultiPolygon",
+      "valid": true,
+      "area_km2": 0.1913,
+      "bounds": [
+        -93.63468530078597,
+        42.04189084338776,
+        -93.62630388731452,
+        42.04566752293789
+      ]
+    },
+    {
+      "name": "Top-O-Hollow",
+      "source": "Zillow 2017",
+      "id": "764185",
+      "kind": null,
+      "file": null,
+      "geometry": "MultiPolygon",
+      "valid": true,
+      "area_km2": 0.548,
+      "bounds": [
+        -93.6337297090588,
+        42.05586608315326,
+        -93.62069407017515,
+        42.062109818913086
+      ]
+    },
+    {
+      "name": "Sunrise Addition",
+      "source": "Zillow 2017",
+      "id": "764179",
+      "kind": null,
+      "file": null,
+      "geometry": "MultiPolygon",
+      "valid": true,
+      "area_km2": 0.1564,
+      "bounds": [
+        -93.61064900085069,
+        42.03010730630717,
+        -93.60667434904195,
+        42.03455658162102
+      ]
+    },
+    {
+      "name": "North Old Town",
+      "source": "Zillow 2017",
+      "id": "764181",
+      "kind": null,
+      "file": null,
+      "geometry": "MultiPolygon",
+      "valid": true,
+      "area_km2": 0.2938,
+      "bounds": [
+        -93.62041050224286,
+        42.0312215303494,
+        -93.61058808707054,
+        42.03455658162102
+      ]
+    },
+    {
+      "name": "Stone Brooke",
+      "source": "Zillow 2017",
+      "id": "764186",
+      "kind": null,
+      "file": null,
+      "geometry": "MultiPolygon",
+      "valid": true,
+      "area_km2": 0.304,
+      "bounds": [
+        -93.63522210701461,
+        42.05626202587183,
+        -93.63013577084911,
+        42.06370878743064
+      ]
+    },
+    {
+      "name": "Bloomington Heights",
+      "source": "Zillow 2017",
+      "id": "137488",
+      "kind": null,
+      "file": null,
+      "geometry": "MultiPolygon",
+      "valid": true,
+      "area_km2": 0.4735,
+      "bounds": [
+        -93.64556130860745,
+        42.05634387856719,
+        -93.63516119323447,
+        42.06365358344618
+      ]
+    },
+    {
+      "name": "Northridge",
+      "source": "Zillow 2017",
+      "id": "764327",
+      "kind": null,
+      "file": null,
+      "geometry": "MultiPolygon",
+      "valid": true,
+      "area_km2": 0.8346,
+      "bounds": [
+        -93.65877496379352,
+        42.045372660420014,
+        -93.64961403865692,
+        42.05698442968776
+      ]
+    },
+    {
+      "name": "College Creek/Old Ames",
+      "source": "Zillow 2017",
+      "id": "764177",
+      "kind": null,
+      "file": null,
+      "geometry": "MultiPolygon",
+      "valid": true,
+      "area_km2": 0.4266,
+      "bounds": [
+        -93.66702509513198,
+        42.01742446336834,
+        -93.65557322532408,
+        42.02281333866472
+      ]
+    },
+    {
+      "name": "Westside",
+      "source": "Zillow 2017",
+      "id": "764176",
+      "kind": null,
+      "file": null,
+      "geometry": "MultiPolygon",
+      "valid": true,
+      "area_km2": 0.2152,
+      "bounds": [
+        -93.66482859816125,
+        42.022752941994725,
+        -93.6575988439115,
+        42.02644455557186
+      ]
+    },
+    {
+      "name": "Oak-Wood-Forest",
+      "source": "Zillow 2017",
+      "id": "764175",
+      "kind": null,
+      "file": null,
+      "geometry": "MultiPolygon",
+      "valid": true,
+      "area_km2": 0.2621,
+      "bounds": [
+        -93.66721034288298,
+        42.02533096824965,
+        -93.65625492402546,
+        42.03011178133369
+      ]
+    },
+    {
+      "name": "Kate Mitchell",
+      "source": "Zillow 2017",
+      "id": "764174",
+      "kind": null,
+      "file": null,
+      "geometry": "MultiPolygon",
+      "valid": true,
+      "area_km2": 1.1449,
+      "bounds": [
+        -93.6102077376969,
+        41.98598976921255,
+        -93.59930028777802,
+        41.99760153758092
+      ]
+    },
+    {
+      "name": "Brookside",
+      "source": "Zillow 2017",
+      "id": "208718",
+      "kind": null,
+      "file": null,
+      "geometry": "MultiPolygon",
+      "valid": true,
+      "area_km2": 0.2667,
+      "bounds": [
+        -93.63006045262773,
+        42.026764576623975,
+        -93.62446396074318,
+        42.03458824495158
+      ]
+    },
+    {
+      "name": "South Campus Area",
+      "source": "Zillow 2017",
+      "id": "764178",
+      "kind": null,
+      "file": null,
+      "geometry": "MultiPolygon",
+      "valid": true,
+      "area_km2": 1.4375,
+      "bounds": [
+        -93.65257320029292,
+        42.00851576119345,
+        -93.63940050383013,
+        42.022830597554105
+      ]
+    },
+    {
+      "name": "Historic Old Town",
+      "source": "Zillow 2017",
+      "id": "764180",
+      "kind": null,
+      "file": null,
+      "geometry": "MultiPolygon",
+      "valid": true,
+      "area_km2": 0.1958,
+      "bounds": [
+        -93.61702976271334,
+        42.02787124905893,
+        -93.61049671505134,
+        42.03125198678981
+      ]
+    },
+    {
+      "name": "Somerset Village",
+      "source": "Zillow 2017",
+      "id": "764187",
+      "kind": null,
+      "file": null,
+      "geometry": "MultiPolygon",
+      "valid": true,
+      "area_km2": 1.1067,
+      "bounds": [
+        -93.6496663872939,
+        42.0453964546827,
+        -93.63468530078597,
+        42.05634387856719
+      ]
+    },
+    {
+      "name": "Lincoln Square",
+      "source": "Zillow 2017",
+      "id": "269591",
+      "kind": null,
+      "file": null,
+      "geometry": "MultiPolygon",
+      "valid": true,
+      "area_km2": 0.5652,
+      "bounds": [
+        -87.69390000018484,
+        41.96569000039324,
+        -87.68399999960025,
+        41.9723099999066
+      ]
+    },
+    {
+      "name": "4",
+      "source": "CDND",
+      "id": 5,
+      "kind": null,
+      "file": "ChicagoIL_onm_cleaned.zip",
+      "geometry": "Polygon",
+      "valid": true,
+      "area_km2": 6.6287,
+      "bounds": [
+        -87.70690177438968,
+        41.961273425776355,
+        -87.67397665771993,
+        41.990763470996946
+      ]
+    },
+    {
+      "name": "Los Feliz",
+      "source": "CDND",
+      "id": 57,
+      "kind": null,
+      "file": "LosAngelesCA_onm_cleaned.zip",
+      "geometry": "Polygon",
+      "valid": true,
+      "area_km2": 6.7959,
+      "bounds": [
+        -118.309309203042,
+        34.0957808589039,
+        -118.267283195556,
+        34.1199358616627
+      ]
+    },
+    {
+      "name": "Sherman Oaks",
+      "source": "CDND",
+      "id": 83,
+      "kind": null,
+      "file": "LosAngelesCA_onm_cleaned.zip",
+      "geometry": "Polygon",
+      "valid": true,
+      "area_km2": 23.7471,
+      "bounds": [
+        -118.475683231579,
+        34.1263508509386,
+        -118.407525220557,
+        34.1721368594695
+      ]
+    },
+    {
+      "name": "Bungalow Heaven Neighborhood Association",
+      "source": "CDND",
+      "id": 20,
+      "kind": null,
+      "file": "PasadenaCA_nha_cleaned.zip",
+      "geometry": "Polygon",
+      "valid": true,
+      "area_km2": 0.9153,
+      "bounds": [
+        -118.13104492399998,
+        34.15773260700007,
+        -118.12301183799997,
+        34.16905755300007
+      ]
+    },
+    {
+      "name": "Los Feliz",
+      "source": "WOF",
+      "id": 85868353,
+      "kind": null,
+      "file": null,
+      "geometry": "Polygon",
+      "valid": true,
+      "area_km2": 6.8284,
+      "bounds": [
+        -118.309309,
+        34.095781,
+        -118.267282,
+        34.120123
+      ]
+    },
+    {
+      "name": "Sherman Oaks",
+      "source": "WOF",
+      "id": 85848285,
+      "kind": null,
+      "file": null,
+      "geometry": "MultiPolygon",
+      "valid": true,
+      "area_km2": 22.4954,
+      "bounds": [
+        -118.475509,
+        34.126366,
+        -118.413735,
+        34.172137
+      ]
+    },
+    {
+      "name": "Lincoln Square",
+      "source": "WOF",
+      "id": 85869419,
+      "kind": null,
+      "file": null,
+      "geometry": "MultiPolygon",
+      "valid": true,
+      "area_km2": 0.5331,
+      "bounds": [
+        -87.6939129637803,
+        41.966110964111,
+        -87.6839712758887,
+        41.9723253008426
+      ]
+    },
+    {
+      "name": "Sherman Oaks",
+      "source": "Overture",
+      "id": "b5c86af7-3f31-4258-a053-3c5a4317d4c9",
+      "kind": "division",
+      "file": null,
+      "geometry": "Point",
+      "valid": true,
+      "area_km2": 0.0,
+      "bounds": [
+        -118.448986,
+        34.1508718,
+        -118.448986,
+        34.1508718
+      ]
+    },
+    {
+      "name": "Sherman Oaks Neighborhood Council District",
+      "source": "Overture",
+      "id": "1849dfd5-0faf-45fc-a024-27f76a407249",
+      "kind": "division",
+      "file": null,
+      "geometry": "Point",
+      "valid": true,
+      "area_km2": 0.0,
+      "bounds": [
+        -118.448986,
+        34.1508718,
+        -118.448986,
+        34.1508718
+      ]
+    },
+    {
+      "name": "Bungalow Heaven",
+      "source": "Overture",
+      "id": "8357e8d1-8909-48c1-a9e0-d53047f02276",
+      "kind": "division",
+      "file": null,
+      "geometry": "Point",
+      "valid": true,
+      "area_km2": 0.0,
+      "bounds": [
+        -118.127187,
+        34.1612451,
+        -118.127187,
+        34.1612451
+      ]
+    },
+    {
+      "name": "Los Feliz",
+      "source": "Overture",
+      "id": "4b66613b-bb5a-4935-8f12-0eaeef5df5a9",
+      "kind": "division",
+      "file": null,
+      "geometry": "Point",
+      "valid": true,
+      "area_km2": 0.0,
+      "bounds": [
+        -118.2875062,
+        34.1076561,
+        -118.2875062,
+        34.1076561
+      ]
+    },
+    {
+      "name": "Los Feliz Neighborhood Council District",
+      "source": "Overture",
+      "id": "d3e3cf34-ac0b-4f32-a784-10470d89ac8c",
+      "kind": "division",
+      "file": null,
+      "geometry": "Point",
+      "valid": true,
+      "area_km2": 0.0,
+      "bounds": [
+        -118.29664493209874,
+        34.12864315,
+        -118.29664493209874,
+        34.12864315
+      ]
+    },
+    {
+      "name": "Schilletter-University Village",
+      "source": "Overture",
+      "id": "61c8ef37-f539-4515-9892-4b5206506e9a",
+      "kind": "division",
+      "file": null,
+      "geometry": "Point",
+      "valid": true,
+      "area_km2": 0.0,
+      "bounds": [
+        -93.6423861,
+        42.0439465,
+        -93.6423861,
+        42.0439465
+      ]
+    },
+    {
+      "name": "Somerset",
+      "source": "Overture",
+      "id": "b82c7f41-799e-459b-853f-8bed8eabc57d",
+      "kind": "division",
+      "file": null,
+      "geometry": "Point",
+      "valid": true,
+      "area_km2": 0.0,
+      "bounds": [
+        -93.645204,
+        42.0495865,
+        -93.645204,
+        42.0495865
+      ]
+    },
+    {
+      "name": "Frederiksen Court",
+      "source": "Overture",
+      "id": "6ab6523c-7328-47df-ba56-f2fba34a16b4",
+      "kind": "division",
+      "file": null,
+      "geometry": "Point",
+      "valid": true,
+      "area_km2": 0.0,
+      "bounds": [
+        -93.6416677,
+        42.0339047,
+        -93.6416677,
+        42.0339047
+      ]
+    },
+    {
+      "name": "Richardson Court",
+      "source": "Overture",
+      "id": "7314b95b-414a-4d1e-adc4-d7aca556b2a6",
+      "kind": "division",
+      "file": null,
+      "geometry": "Point",
+      "valid": true,
+      "area_km2": 0.0,
+      "bounds": [
+        -93.6420251,
+        42.024207,
+        -93.6420251,
+        42.024207
+      ]
+    },
+    {
+      "name": "Union Drive",
+      "source": "Overture",
+      "id": "35ef5ee3-f88f-481a-af6f-9f6551ea0590",
+      "kind": "division",
+      "file": null,
+      "geometry": "Point",
+      "valid": true,
+      "area_km2": 0.0,
+      "bounds": [
+        -93.6513597,
+        42.0242294,
+        -93.6513597,
+        42.0242294
+      ]
+    },
+    {
+      "name": "Iowa State Center",
+      "source": "Overture",
+      "id": "531ca1aa-6b68-4f77-807c-61ecfa6c855e",
+      "kind": "division",
+      "file": null,
+      "geometry": "Point",
+      "valid": true,
+      "area_km2": 0.0,
+      "bounds": [
+        -93.6367178,
+        42.0206764,
+        -93.6367178,
+        42.0206764
+      ]
+    },
+    {
+      "name": "Lincoln Square",
+      "source": "Overture",
+      "id": "615406b5-3e74-4a1e-ace6-db9df6fb80e1",
+      "kind": "division",
+      "file": null,
+      "geometry": "Point",
+      "valid": true,
+      "area_km2": 0.0,
+      "bounds": [
+        -87.688505,
+        41.9685896,
+        -87.688505,
+        41.9685896
+      ]
+    },
+    {
+      "name": "Los Feliz",
+      "source": "Overture",
+      "id": "a039d2c3-51e3-4702-b7f2-04453e2c98cc",
+      "kind": "division_area",
+      "file": null,
+      "geometry": "Polygon",
+      "valid": true,
+      "area_km2": 6.8445,
+      "bounds": [
+        -118.309432,
+        34.0958669,
+        -118.2667329,
+        34.1200657
+      ]
+    },
+    {
+      "name": "Los Feliz Neighborhood Council District",
+      "source": "Overture",
+      "id": "b1e64776-4f7d-4701-a000-02d793dbe9c8",
+      "kind": "division_area",
+      "file": null,
+      "geometry": "Polygon",
+      "valid": true,
+      "area_km2": 24.1157,
+      "bounds": [
+        -118.3306537,
+        34.0957706,
+        -118.2664088,
+        34.1614457
+      ]
+    },
+    {
+      "name": "Sherman Oaks Neighborhood Council District",
+      "source": "Overture",
+      "id": "026ed56c-654c-4453-8831-a0ca9d7a64b0",
+      "kind": "division_area",
+      "file": null,
+      "geometry": "Polygon",
+      "valid": true,
+      "area_km2": 22.4594,
+      "bounds": [
+        -118.4755661,
+        34.1263649,
+        -118.4137689,
+        34.1721496
+      ]
+    },
+    {
+      "name": "Lincoln Square",
+      "source": "Overture",
+      "id": "56efc7ff-0cf6-4fa7-9955-4f370095302b",
+      "kind": "division_area",
+      "file": null,
+      "geometry": "Polygon",
+      "valid": true,
+      "area_km2": 6.6275,
+      "bounds": [
+        -87.7069349,
+        41.9612701,
+        -87.6739644,
+        41.990759
+      ]
+    }
+  ],
+  "overlaps": [
+    {
+      "a": "Zillow 2017:Sherman Oaks",
+      "b": "CDND:Sherman Oaks",
+      "overlap_union_pct": 91.2,
+      "area_ratio_a_to_b": 1.079
+    },
+    {
+      "a": "Zillow 2017:Sherman Oaks",
+      "b": "WOF:Sherman Oaks",
+      "overlap_union_pct": 86.76,
+      "area_ratio_a_to_b": 1.139
+    },
+    {
+      "a": "Zillow 2017:Sherman Oaks",
+      "b": "Overture:Sherman Oaks Neighborhood Council District",
+      "overlap_union_pct": 86.73,
+      "area_ratio_a_to_b": 1.141
+    },
+    {
+      "a": "Zillow 2017:Los Feliz",
+      "b": "CDND:Los Feliz",
+      "overlap_union_pct": 88.72,
+      "area_ratio_a_to_b": 1.004
+    },
+    {
+      "a": "Zillow 2017:Los Feliz",
+      "b": "WOF:Los Feliz",
+      "overlap_union_pct": 88.67,
+      "area_ratio_a_to_b": 0.999
+    },
+    {
+      "a": "Zillow 2017:Los Feliz",
+      "b": "Overture:Los Feliz",
+      "overlap_union_pct": 90.29,
+      "area_ratio_a_to_b": 0.996
+    },
+    {
+      "a": "Zillow 2017:Los Feliz",
+      "b": "Overture:Los Feliz Neighborhood Council District",
+      "overlap_union_pct": 27.25,
+      "area_ratio_a_to_b": 0.283
+    },
+    {
+      "a": "Zillow 2017:Edwards",
+      "b": "Zillow 2017:College Creek/Old Ames",
+      "overlap_union_pct": 0.0,
+      "area_ratio_a_to_b": 0.979
+    },
+    {
+      "a": "Zillow 2017:Edwards",
+      "b": "Zillow 2017:Westside",
+      "overlap_union_pct": 0.0,
+      "area_ratio_a_to_b": 1.94
+    },
+    {
+      "a": "Zillow 2017:Edwards",
+      "b": "Zillow 2017:Oak-Wood-Forest",
+      "overlap_union_pct": 0.0,
+      "area_ratio_a_to_b": 1.593
+    },
+    {
+      "a": "Zillow 2017:Allenview",
+      "b": "Zillow 2017:Somerset Village",
+      "overlap_union_pct": 0.0,
+      "area_ratio_a_to_b": 0.173
+    },
+    {
+      "a": "Zillow 2017:Top-O-Hollow",
+      "b": "Zillow 2017:Stone Brooke",
+      "overlap_union_pct": 0.0,
+      "area_ratio_a_to_b": 1.803
+    },
+    {
+      "a": "Zillow 2017:Sunrise Addition",
+      "b": "Zillow 2017:North Old Town",
+      "overlap_union_pct": 0.0,
+      "area_ratio_a_to_b": 0.532
+    },
+    {
+      "a": "Zillow 2017:Sunrise Addition",
+      "b": "Zillow 2017:Historic Old Town",
+      "overlap_union_pct": 0.0,
+      "area_ratio_a_to_b": 0.799
+    },
+    {
+      "a": "Zillow 2017:North Old Town",
+      "b": "Zillow 2017:Historic Old Town",
+      "overlap_union_pct": 0.0,
+      "area_ratio_a_to_b": 1.5
+    },
+    {
+      "a": "Zillow 2017:Stone Brooke",
+      "b": "Zillow 2017:Bloomington Heights",
+      "overlap_union_pct": 0.0,
+      "area_ratio_a_to_b": 0.642
+    },
+    {
+      "a": "Zillow 2017:Bloomington Heights",
+      "b": "Zillow 2017:Somerset Village",
+      "overlap_union_pct": 0.0,
+      "area_ratio_a_to_b": 0.428
+    },
+    {
+      "a": "Zillow 2017:Northridge",
+      "b": "Zillow 2017:Somerset Village",
+      "overlap_union_pct": 0.0,
+      "area_ratio_a_to_b": 0.754
+    },
+    {
+      "a": "Zillow 2017:College Creek/Old Ames",
+      "b": "Zillow 2017:Westside",
+      "overlap_union_pct": 0.0,
+      "area_ratio_a_to_b": 1.983
+    },
+    {
+      "a": "Zillow 2017:Westside",
+      "b": "Zillow 2017:Oak-Wood-Forest",
+      "overlap_union_pct": 0.0,
+      "area_ratio_a_to_b": 0.821
+    },
+    {
+      "a": "Zillow 2017:Lincoln Square",
+      "b": "CDND:4",
+      "overlap_union_pct": 8.53,
+      "area_ratio_a_to_b": 0.085
+    },
+    {
+      "a": "Zillow 2017:Lincoln Square",
+      "b": "WOF:Lincoln Square",
+      "overlap_union_pct": 93.44,
+      "area_ratio_a_to_b": 1.06
+    },
+    {
+      "a": "Zillow 2017:Lincoln Square",
+      "b": "Overture:Lincoln Square",
+      "overlap_union_pct": 8.53,
+      "area_ratio_a_to_b": 0.085
+    },
+    {
+      "a": "CDND:4",
+      "b": "WOF:Lincoln Square",
+      "overlap_union_pct": 8.04,
+      "area_ratio_a_to_b": 12.434
+    },
+    {
+      "a": "CDND:4",
+      "b": "Overture:Lincoln Square",
+      "overlap_union_pct": 99.72,
+      "area_ratio_a_to_b": 1.0
+    },
+    {
+      "a": "CDND:Los Feliz",
+      "b": "WOF:Los Feliz",
+      "overlap_union_pct": 98.26,
+      "area_ratio_a_to_b": 0.995
+    },
+    {
+      "a": "CDND:Los Feliz",
+      "b": "Overture:Los Feliz",
+      "overlap_union_pct": 97.06,
+      "area_ratio_a_to_b": 0.993
+    },
+    {
+      "a": "CDND:Los Feliz",
+      "b": "Overture:Los Feliz Neighborhood Council District",
+      "overlap_union_pct": 28.15,
+      "area_ratio_a_to_b": 0.282
+    },
+    {
+      "a": "CDND:Sherman Oaks",
+      "b": "WOF:Sherman Oaks",
+      "overlap_union_pct": 94.61,
+      "area_ratio_a_to_b": 1.056
+    },
+    {
+      "a": "CDND:Sherman Oaks",
+      "b": "Overture:Sherman Oaks Neighborhood Council District",
+      "overlap_union_pct": 94.44,
+      "area_ratio_a_to_b": 1.057
+    },
+    {
+      "a": "WOF:Los Feliz",
+      "b": "Overture:Los Feliz",
+      "overlap_union_pct": 96.91,
+      "area_ratio_a_to_b": 0.998
+    },
+    {
+      "a": "WOF:Los Feliz",
+      "b": "Overture:Los Feliz Neighborhood Council District",
+      "overlap_union_pct": 28.3,
+      "area_ratio_a_to_b": 0.283
+    },
+    {
+      "a": "WOF:Sherman Oaks",
+      "b": "Overture:Sherman Oaks Neighborhood Council District",
+      "overlap_union_pct": 99.47,
+      "area_ratio_a_to_b": 1.002
+    },
+    {
+      "a": "WOF:Lincoln Square",
+      "b": "Overture:Lincoln Square",
+      "overlap_union_pct": 8.04,
+      "area_ratio_a_to_b": 0.08
+    },
+    {
+      "a": "Overture:Los Feliz",
+      "b": "Overture:Los Feliz Neighborhood Council District",
+      "overlap_union_pct": 28.38,
+      "area_ratio_a_to_b": 0.284
+    }
+  ],
+  "cross_streets": {
+    "credit": "\u00a9 OpenStreetMap contributors, ODbL 1.0",
+    "source": "https://www.openstreetmap.org/copyright",
+    "local_usefulness": "not reviewed",
+    "records": [
+      {
+        "label": "Vermont Avenue & Franklin Avenue",
+        "node": 20842309,
+        "lat": 34.1054056,
+        "lon": -118.2917999,
+        "ways": [
+          398194780,
+          398186772
+        ],
+        "covered_by": [
+          "Zillow 2017:Los Feliz",
+          "CDND:Los Feliz",
+          "WOF:Los Feliz",
+          "Overture:Los Feliz",
+          "Overture:Los Feliz Neighborhood Council District"
+        ]
+      },
+      {
+        "label": "Hillhurst Avenue & Franklin Avenue",
+        "node": 1718185213,
+        "lat": 34.1054251,
+        "lon": -118.2874245,
+        "ways": [
+          398194767,
+          398186773
+        ],
+        "covered_by": [
+          "Zillow 2017:Los Feliz",
+          "CDND:Los Feliz",
+          "WOF:Los Feliz",
+          "Overture:Los Feliz",
+          "Overture:Los Feliz Neighborhood Council District"
+        ]
+      },
+      {
+        "label": "Ventura Boulevard & Van Nuys Boulevard",
+        "node": 269588234,
+        "lat": 34.1509242,
+        "lon": -118.4487036,
+        "ways": [
+          653838968,
+          761426595
+        ],
+        "covered_by": [
+          "Zillow 2017:Sherman Oaks",
+          "CDND:Sherman Oaks",
+          "WOF:Sherman Oaks",
+          "Overture:Sherman Oaks Neighborhood Council District"
+        ]
+      },
+      {
+        "label": "Ventura Boulevard & Woodman Avenue",
+        "node": 269571031,
+        "lat": 34.1480232,
+        "lon": -118.4312198,
+        "ways": [
+          405318134,
+          606514887
+        ],
+        "covered_by": [
+          "Zillow 2017:Sherman Oaks",
+          "CDND:Sherman Oaks",
+          "WOF:Sherman Oaks",
+          "Overture:Sherman Oaks Neighborhood Council District"
+        ]
+      },
+      {
+        "label": "Lincoln Avenue & Leland Avenue",
+        "node": 260227530,
+        "lat": 41.9668422,
+        "lon": -87.6874522,
+        "ways": [
+          1561059532,
+          110160122
+        ],
+        "covered_by": [
+          "Zillow 2017:Lincoln Square",
+          "CDND:4",
+          "WOF:Lincoln Square",
+          "Overture:Lincoln Square"
+        ]
+      },
+      {
+        "label": "Lincoln Avenue & Leland Avenue",
+        "node": 262077533,
+        "lat": 41.9666206,
+        "lon": -87.6872199,
+        "ways": [
+          1510023069,
+          1476980666
+        ],
+        "covered_by": [
+          "Zillow 2017:Lincoln Square",
+          "CDND:4",
+          "WOF:Lincoln Square",
+          "Overture:Lincoln Square"
+        ]
+      },
+      {
+        "label": "Western Avenue & Leland Avenue",
+        "node": 157729865,
+        "lat": 41.9667811,
+        "lon": -87.688847,
+        "ways": [
+          435365686,
+          1464448283
+        ],
+        "covered_by": [
+          "Zillow 2017:Lincoln Square",
+          "CDND:4",
+          "WOF:Lincoln Square",
+          "Overture:Lincoln Square"
+        ]
+      },
+      {
+        "label": "Holliston Avenue & Mountain Street",
+        "node": 13309148079,
+        "lat": 34.1616697,
+        "lon": -118.1230529,
+        "ways": [
+          368177172,
+          368177155
+        ],
+        "covered_by": [
+          "CDND:Bungalow Heaven Neighborhood Association"
+        ]
+      },
+      {
+        "label": "Michigan Avenue & Mountain Street",
+        "node": 123129442,
+        "lat": 34.1616435,
+        "lon": -118.1255968,
+        "ways": [
+          368177164,
+          368177155
+        ],
+        "covered_by": [
+          "CDND:Bungalow Heaven Neighborhood Association"
+        ]
+      },
+      {
+        "label": "Clark Avenue & 9th Street",
+        "node": 161132195,
+        "lat": 42.0301825,
+        "lon": -93.6170017,
+        "ways": [
+          774713887,
+          197319000
+        ],
+        "covered_by": []
+      },
+      {
+        "label": "Douglas Avenue & 9th Street",
+        "node": 2624861615,
+        "lat": 42.0301687,
+        "lon": -93.6122056,
+        "ways": [
+          376771754,
+          1004726856
+        ],
+        "covered_by": [
+          "Zillow 2017:Historic Old Town"
+        ]
+      }
+    ]
+  }
+}

@@ -8,8 +8,9 @@ Help an individual, couple, or group find places to consider for a new home thro
 
 1. [Simple plan](PLAN.md) — the order of work and what each component must explain.
 2. [Decisions](DECISIONS.md) — agreed preferences, proposals, and unresolved choices.
-3. [Neighborhood comparison](docs/neighborhood-comparison.md) — the first practical investigation.
-4. [Neighborhood sources and literature](docs/neighborhood-sources.md) — evidence behind that investigation.
+3. [Neighborhood findings](docs/neighborhood-findings.md) — actual records, a boundary comparison, and the proposal to review next.
+4. [Evidence and methods](docs/neighborhood-evidence.md) — source IDs, licenses, calculated areas, and cross-street checks.
+5. [Neighborhood sources and literature](docs/neighborhood-sources.md) — the broader resource survey.
 
 ## Product principles
 
@@ -26,6 +27,6 @@ Help an individual, couple, or group find places to consider for a new home thro
 
 Research → a concrete example → discuss the tradeoffs → record the decision → implement that agreed component.
 
-The current task is to compare neighborhood sources in a small set of places. Completing this comparison does not commit the project to a provider, nationwide launch, or technology stack.
+The first sample comparison is documented. Next, discuss what a recommendation should represent and record the agreed geographic model. Local review and some reuse questions remain open. The [investigation plan](docs/neighborhood-comparison.md) records the scope; this comparison does not commit the project to a provider, nationwide launch, or technology stack.
 
 This public repository contains project planning and public research. Personal house-hunt records, household finances, private addresses, and credentials do not belong here.

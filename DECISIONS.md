@@ -26,6 +26,8 @@ An agreed preference is not necessarily a completed implementation. A proposal i
 
 ## Open decisions
 
+The [2026-09-27 sample findings](docs/neighborhood-findings.md) support a proposed separation between recognizable names, attributed outlines, exploration starting points, and measurement geography. This is evidence for discussion, not an adopted source strategy. In particular, Lincoln Square's inspected outlines range from approximately 0.53 to 6.63 km².
+
 1. Which sources work well enough in the proposed sample places?
 2. Should uncovered areas use cross-street-based exploration areas, named towns, or an explicit coverage gap?
 3. Does a cross-street label represent a starting point, a walking area, or a recommended residential pocket?
