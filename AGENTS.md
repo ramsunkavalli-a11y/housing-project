@@ -1,0 +1,15 @@
+# Working on Housing Project
+
+Read README.md, PLAN.md, and DECISIONS.md before making substantive changes.
+
+- The owner wants to understand components before major decisions are made and built. Explain options with concrete examples and record the agreed choice before implementing a major component.
+- Research, source inspection, planning documents, and routine corrections may proceed within the current request. Do not introduce repeated approval requests for these tasks.
+- Keep proposed choices separate from agreed decisions and completed work. Do not mark unperformed data audits or comparisons complete.
+- Current focus is neighborhood identity and coverage. Use docs/neighborhood-comparison.md for the first investigation.
+- Preserve the distinction between neighborhood names, source boundaries, exploration cross streets, and the geographic area a statistic actually measures.
+- Distinguish no shared fit, insufficient evidence, and outside coverage.
+- Cite primary sources and record release dates, provenance, and unresolved reuse terms. Do not infer data rights from a software license.
+- Keep plans simple and user-facing explanations nontechnical unless detail helps a decision.
+- This is a public repository. Do not commit household finances, personal home-search records, private addresses, credentials, or raw data without verified redistribution rights.
+- Repository work does not authorize changing a separate prototype's visibility or deploying it.
+- For documentation-only work, check links and consistency; do not add an application or test framework just to validate plans.
