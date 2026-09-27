@@ -53,4 +53,4 @@ A requirement can rule out a candidate only when appropriate evidence supports t
 
 The [source exercise](worked-area-profiles.md) demonstrated that we can obtain public background data, preserve uncertainty and identify geographic mismatches. It did **not** establish household fit, suitable homes available today, actual commutes, or how either place feels to live in.
 
-The next proposed component review is **“Can I find a suitable home here within my budget?”** Define what a useful answer would contain, then identify which parts can be supported freely and which must remain approximate or require a listing/property check. Keep the broader inventory available as other buyer questions become relevant. No new collection service or website build is selected by this outline.
+The **[home-and-budget component review](home-and-budget.md)** now defines a proposed answer, conditional questions, a fictional cost example and limits of free source evidence. Keep the broader inventory available as other buyer questions become relevant. No new collection service or website build is selected by this outline.

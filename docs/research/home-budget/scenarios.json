@@ -1,0 +1,139 @@
+{
+  "label": "Entirely fictional teaching example; not market prices, quotes, or personal advice",
+  "monthly_limit": 5000,
+  "total_cash": 195000,
+  "down_payment_fraction": 0.2,
+  "months": 360,
+  "hoa": 0,
+  "mortgage_insurance": 0,
+  "assumptions": {
+    "lower": {
+      "rate": 0.06,
+      "tax_rate": 0.011,
+      "insurance": 150,
+      "utilities": 200,
+      "maintenance": 250
+    },
+    "central": {
+      "rate": 0.065,
+      "tax_rate": 0.012,
+      "insurance": 250,
+      "utilities": 250,
+      "maintenance": 350
+    },
+    "higher": {
+      "rate": 0.07,
+      "tax_rate": 0.014,
+      "insurance": 400,
+      "utilities": 350,
+      "maintenance": 500
+    }
+  },
+  "rows": [
+    {
+      "price": 550000,
+      "down_payment": 110000.0,
+      "closing_moving_initial_costs": 25000,
+      "retained_cash": 25000,
+      "cash_required": 160000.0,
+      "costs": {
+        "lower": {
+          "principal_interest": 2638.0223106721305,
+          "taxes": 504.1666666666667,
+          "insurance": 150,
+          "utilities": 200,
+          "maintenance": 250,
+          "total": 3742.188977338797
+        },
+        "central": {
+          "principal_interest": 2781.0993033690474,
+          "taxes": 550.0,
+          "insurance": 250,
+          "utilities": 250,
+          "maintenance": 350,
+          "total": 4181.099303369047
+        },
+        "higher": {
+          "principal_interest": 2927.3309787884027,
+          "taxes": 641.6666666666666,
+          "insurance": 400,
+          "utilities": 350,
+          "maintenance": 500,
+          "total": 4818.997645455069
+        }
+      }
+    },
+    {
+      "price": 650000,
+      "down_payment": 130000.0,
+      "closing_moving_initial_costs": 25000,
+      "retained_cash": 25000,
+      "cash_required": 180000.0,
+      "costs": {
+        "lower": {
+          "principal_interest": 3117.662730794336,
+          "taxes": 595.8333333333334,
+          "insurance": 150,
+          "utilities": 200,
+          "maintenance": 250,
+          "total": 4313.496064127669
+        },
+        "central": {
+          "principal_interest": 3286.7537221634198,
+          "taxes": 650.0,
+          "insurance": 250,
+          "utilities": 250,
+          "maintenance": 350,
+          "total": 4786.753722163419
+        },
+        "higher": {
+          "principal_interest": 3459.5729749317484,
+          "taxes": 758.3333333333334,
+          "insurance": 400,
+          "utilities": 350,
+          "maintenance": 500,
+          "total": 5467.906308265082
+        }
+      }
+    },
+    {
+      "price": 750000,
+      "down_payment": 150000.0,
+      "closing_moving_initial_costs": 25000,
+      "retained_cash": 25000,
+      "cash_required": 200000.0,
+      "costs": {
+        "lower": {
+          "principal_interest": 3597.3031509165417,
+          "taxes": 687.5,
+          "insurance": 150,
+          "utilities": 200,
+          "maintenance": 250,
+          "total": 4884.803150916541
+        },
+        "central": {
+          "principal_interest": 3792.4081409577916,
+          "taxes": 750.0,
+          "insurance": 250,
+          "utilities": 250,
+          "maintenance": 350,
+          "total": 5392.408140957792
+        },
+        "higher": {
+          "principal_interest": 3991.814971075094,
+          "taxes": 875.0,
+          "insurance": 400,
+          "utilities": 350,
+          "maintenance": 500,
+          "total": 6116.814971075094
+        }
+      }
+    }
+  ],
+  "monthly_price_limits": {
+    "lower": 770163.7353618247,
+    "central": 685209.233387758,
+    "higher": 577893.3484661962
+  },
+  "cash_price_limit": 725000.0
+}

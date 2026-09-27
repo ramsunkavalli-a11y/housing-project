@@ -8,6 +8,8 @@ Help an individual, couple, or group find places to consider for a new home thro
 
 **Start here: [the buyer decisions the tool must support](docs/buyer-decisions.md).** Suitable homes and total cost, regular trips, everyday conveniences, surroundings, dealbreakers, and specific places to explore. Every proposed data field must earn its place by supporting one of these decisions.
 
+**Current component: [home requirements and budget](docs/home-and-budget.md).** A short branching intake, a checked fictional cost example, and the distinction between a workable price range and evidence of suitable homes. [Sources and calculation details](docs/home-and-budget-evidence.md). Ready for discussion; implementation choices remain open.
+
 **Research checkpoint: [Granada Hills and Ames](docs/worked-area-profiles.md).** The source audit provides background but leaves important buyer questions unanswered. Detailed housing statistics remain in the [methods](docs/worked-area-methods.md); they are not the proposed result page.
 
 New research: [what to collect and how to use it](docs/homebuyer-data-review.md), with a [16-component inventory](docs/homebuyer-data-inventory.md), [28-source catalog](docs/homebuyer-data-sources.md), and [literature notes](docs/homebuyer-literature.md). Start broad, then narrow by usefulness to homebuyers.
@@ -34,6 +36,6 @@ New research: [what to collect and how to use it](docs/homebuyer-data-review.md)
 
 Research → a concrete example → discuss the tradeoffs → record the decision → implement that agreed component.
 
-The neighborhood comparison, literature sweep, and initial source audit are documented. The owner has corrected the emphasis toward practical buyer decisions. The next proposed component review is whether someone can find a suitable home within their budget, including what free evidence can and cannot establish. Local review and some reuse questions remain open. The [neighborhood investigation plan](docs/neighborhood-comparison.md) records the earlier scope; research does not commit the project to a provider, nationwide launch, or technology stack.
+The neighborhood comparison, literature sweep, initial source audit, and home-and-budget component explanation are documented. Review the proposed scope of rough area affordability screening plus an optional candidate-home cost check before selecting its sources or implementation. Local review and some reuse questions remain open. The [neighborhood investigation plan](docs/neighborhood-comparison.md) records the earlier scope; research does not commit the project to a provider, nationwide launch, or technology stack.
 
 This public repository contains project planning and public research. Personal house-hunt records, household finances, private addresses, and credentials do not belong here.

@@ -43,6 +43,6 @@ The [methods and full comparison](worked-area-methods.md) preserve all values, s
 
 ## A useful next worked example
 
-Start with one explicit, fictional buyer need—such as a three-bedroom home, usable outdoor space and a stated monthly budget—and show what evidence would let us say **“there are plausible options here,” “we have evidence of a conflict,” or “we cannot determine that yet.”** Keep fictional inputs clearly separate from real source observations.
+The [home-and-budget review](home-and-budget.md) now works through a fictional three-bedroom/usable-outdoor-space need and a stated monthly budget. It shows the cost calculation and what additional evidence is needed to say **“there are plausible options here,” “we have evidence of a conflict,” or “we cannot determine that yet.”** Its prices and financial assumptions are not observations about Granada Hills or Ames.
 
 This is a proposal for the next component review. The source and measurement choices remain open. The website has not been changed by this research revision.

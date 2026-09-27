@@ -22,6 +22,8 @@ An agreed preference is not necessarily a completed implementation. A proposal i
 
 ## Proposals to investigate
 
+The owner authorized working through the home-and-budget component. Its [reviewable proposal](docs/home-and-budget.md) separates a household's price/cash scenarios from evidence that suitable homes exist in an area. The proposed first scope is rough area affordability screening plus an optional candidate-home cost check. The fictional scenario, question sequence, defaults and market providers are not approved production choices.
+
 The [Component 2 research sweep](docs/homebuyer-data-review.md) proposes 16 buyer-relevant components and catalogs 28 source entries, including local-source categories and private household inputs. Actual ingestion, feature selection, scoring, and measurement units remain open. Documentation review is not a completed data-coverage audit.
 
 The [Granada Hills/Ames source exercise](docs/worked-area-profiles.md) inspects nine ACS tables, selected EPA records, source boundaries and two public-library locations. Following owner feedback, its statistics are treated as background; the page now shows which practical buyer questions remain unanswered. The [buyer-decision outline](docs/buyer-decisions.md) proposes how to select useful evidence. Its detailed question sequence and collection priorities remain proposals; no filtering thresholds or national source strategy are adopted.

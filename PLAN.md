@@ -4,7 +4,7 @@ Updated: 2026-09-27
 
 **Now: Component 2 — select evidence around practical buyer decisions.** The owner rejected the detached-home-percentage emphasis and agreed that every collected field needs a buyer question and a plausible effect on the shortlist. Start with the [buyer-decision outline](docs/buyer-decisions.md). Geography implementation decisions remain open.
 
-Starting priority agreed: **broad coverage, free source data, acceptable imperfections**. The [working recommendation](docs/free-starting-point.md) is Census geography plus Overture/OSM names and streets. The next proposed review is “Can I find a suitable home here within my budget?” Define the useful answer and evidence gaps before selecting sources or building ingestion.
+Starting priority agreed: **broad coverage, free source data, acceptable imperfections**. The [working recommendation](docs/free-starting-point.md) is Census geography plus Overture/OSM names and streets. The [home-and-budget component](docs/home-and-budget.md) now defines a proposed useful answer and its evidence gaps. Review that scope before selecting sources or building ingestion.
 
 | Order | Component | Question to settle | Reviewable result before implementation |
 |---|---|---|---|
@@ -43,7 +43,8 @@ Starting priority agreed: **broad coverage, free source data, acceptable imperfe
 - [x] Produce [worked profiles](docs/worked-area-profiles.md) and [methods](docs/worked-area-methods.md), including a smaller-area sensitivity check. Both examples are built-up settings; rural generalization remains untested.
 - [x] Record the owner's correction: practical buyer decisions lead; detached-home share is not a default headline or filter.
 - [x] Reframe the examples and add a buyer-question-to-evidence outline.
-- [ ] Review a concrete answer to “Can I find a suitable home here within my budget?” before selecting the next collection batch.
+- [x] Prepare the home-and-budget explanation: conditional questions, monthly/cash checks, source review and verified fictional example.
+- [ ] Discuss the proposed rough area screening and optional candidate-home cost check with the owner.
 - [ ] Select a collection batch and measurement geography based on that evidence.
 
 The broad inventory is not a commitment to collect or score every candidate. The worked examples add small public extracts and a calculation script, not a national ingestion service or application.
